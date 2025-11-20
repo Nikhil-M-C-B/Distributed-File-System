@@ -390,3 +390,8 @@
 [2025-11-20 15:52:23] [NM] NameServer started
 [2025-11-20 15:52:23] [NM] Listening on port 9000
 [2025-11-20 15:52:23] [NM] Storage server registered successfully
+[2025-11-20 23:19:12] [NM] NameServer started
+[2025-11-20 23:19:12] [NM] Listening on port 9000
+[2025-11-20 23:19:12] [NM] Storage server registered successfully
+[2025-11-20 23:19:42] [NS] [NS] Request received: raw='VIEW nikhil' From: user=- IP=10.2.141.249:49860
+[2025-11-20 23:19:42] [NS] [NS] VIEW SUCCESS user=nikhil IP=10.2.141.249:49860

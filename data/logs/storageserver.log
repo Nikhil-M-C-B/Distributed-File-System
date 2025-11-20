@@ -552,3 +552,9 @@
 [2025-11-20 15:52:28] [SS] Listening on port 9001
 [2025-11-20 15:52:28] [SS] Registered with name server successfully
 [2025-11-20 15:52:28] [SS] [CONCURRENCY] Multi-threaded mode enabled for concurrent client handling
+[2025-11-20 23:19:17] [SS] StorageServer started
+[2025-11-20 23:19:17] [SS] Listening on port 9001
+[2025-11-20 23:19:17] [SS] Registered with name server successfully
+[2025-11-20 23:19:17] [SS] [CONCURRENCY] Multi-threaded mode enabled for concurrent client handling
+[2025-11-20 23:19:50] [SS] [SS] Request received: raw='DELETE mok.txt nikhil' From: user=nikhil IP=10.2.141.249:60008
+[2025-11-20 23:19:50] [SS] [SS] DELETE DENIED: user='nikhil' file='mok.txt' owner='mok'

@@ -684,7 +684,7 @@ void handle_info(int csock, const char *fname, const char *user) {
 
 
 /* ---------------- DELETE ---------------- */
-void handle_delete(int csock,const char *fname){
+void handle_delete(int csock,const char *fname, const char *user){
     char path[256]; sprintf(path,"data/files/%s",fname);
     
     // Check if file exists first
@@ -696,6 +696,30 @@ void handle_delete(int csock,const char *fname){
         return;
     }
     
+    // Check permission: only owner or users with write (RW) access can delete
+    // Determine owner from metadata
+    char owner[128] = "system";
+    FILE *mfp = fopen("data/metadata.txt", "r");
+    if (mfp) {
+        char mf[128], mo[64];
+        while (fscanf(mfp, "%127s %63s", mf, mo) == 2) {
+            if (strcmp(mf, fname) == 0) {
+                strncpy(owner, mo, sizeof(owner)-1);
+                owner[sizeof(owner)-1] = '\0';
+                break;
+            }
+        }
+        fclose(mfp);
+    }
+
+    int access_level = check_access(fname, user, owner);
+    if (access_level == 0) {
+        send(csock, "ERROR: No permission to delete this file\n[END]\n", 40, 0);
+        char msg[256]; sprintf(msg, "[SS] DELETE DENIED: user='%s' file='%s' owner='%s'", user, fname, owner);
+        log_event("SS", msg);
+        return;
+    }
+
     // Delete the main file
     if(remove(path)==0){
         // Persist metadata changes: remove from metadata.txt
@@ -831,7 +855,7 @@ void* handle_client(void* arg) {
     else if(strcmp(cmd,"INFO")==0)
         handle_info(csock,fname,user);
     else if(strcmp(cmd,"DELETE")==0)
-        handle_delete(csock,fname);
+        handle_delete(csock,fname,user);
     else if(strcmp(cmd,"LIST")==0)
         handle_list(csock);
     else
