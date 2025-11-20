@@ -1,0 +1,8 @@
+8.txt friyaww R
+7.txt friyaww R
+2.txt mok RW
+1.txt mok R
+ji.txt mok RW
+1.txt friyaww R
+mok.txt wd R
+1.txt hi RW

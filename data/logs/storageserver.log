@@ -1,0 +1,554 @@
+[2025-11-18 15:58:24] [SS] StorageServer started
+[2025-11-18 15:58:24] [SS] Listening on port 9001
+[2025-11-18 15:58:35] [SS] LIST nikhil
+[2025-11-18 16:11:02] [SS] StorageServer started
+[2025-11-18 16:11:02] [SS] Listening on port 9001
+[2025-11-18 16:18:18] [SS] StorageServer started
+[2025-11-18 16:18:18] [SS] Listening on port 9001
+[2025-11-18 16:30:29] [SS] StorageServer started
+[2025-11-18 16:30:29] [SS] Listening on port 9001
+[2025-11-18 16:30:41] [SS] [SS] Request received: raw='LIST nikhil' From: user=- IP=127.0.0.1:53366
+[2025-11-18 16:32:27] [SS] [SS] Request received: raw='WRITE 1.txt 0 nikhil' From: user=nikhil IP=127.0.0.1:39092
+[2025-11-18 16:32:27] [SS] [SS] Sentence 0 locked by user nikhil
+[2025-11-18 16:32:27] [SS] [SS] Appended to UNDO log for file='1.txt'
+[2025-11-18 16:38:21] [SS] WRITE aborted: client disconnected
+[2025-11-18 16:38:46] [SS] [SS] Request received: raw='WRITE 1.txt 0 nikhil' From: user=nikhil IP=127.0.0.1:41260
+[2025-11-18 16:38:46] [SS] [SS] Sentence 0 locked by user nikhil
+[2025-11-18 16:38:46] [SS] [SS] Appended to UNDO log for file='1.txt'
+[2025-11-18 16:39:19] [SS] [SS] Lock released (ETIRW) for file='1.txt' sentence=0
+[2025-11-18 16:39:19] [SS] [SS] Updated sentence 0; new_word_count=67
+[2025-11-18 16:39:28] [SS] [SS] Request received: raw='STREAM 1.txt nikhil' From: user=- IP=127.0.0.1:54094
+[2025-11-18 16:39:28] [SS] [SS] STREAM start
+[2025-11-18 16:39:35] [SS] [SS] STREAM finished; words_sent=67
+[2025-11-18 16:40:32] [SS] [SS] Request received: raw='READ 1.txt nikhil' From: user=- IP=127.0.0.1:55000
+[2025-11-18 16:41:27] [SS] StorageServer started
+[2025-11-18 16:41:27] [SS] Listening on port 9001
+[2025-11-18 16:45:54] [SS] StorageServer started
+[2025-11-18 16:45:54] [SS] Listening on port 9001
+[2025-11-18 16:46:53] [SS] [SS] Request received: raw='WRITE 3.txt 0 friyawww' From: user=friyawww IP=127.0.0.1:44076
+[2025-11-18 16:46:53] [SS] [SS] Sentence 0 locked by user friyawww
+[2025-11-18 16:46:53] [SS] [SS] Appended to UNDO log for file='3.txt'
+[2025-11-18 16:47:28] [SS] [SS] Lock released (ETIRW) for file='3.txt' sentence=0
+[2025-11-18 16:47:28] [SS] [SS] Updated sentence 0; new_word_count=53
+[2025-11-18 16:47:35] [SS] [SS] Request received: raw='STREAM 3.txt friyawww' From: user=- IP=127.0.0.1:47248
+[2025-11-18 16:47:35] [SS] [SS] STREAM start
+[2025-11-18 16:47:40] [SS] [SS] STREAM finished; words_sent=53
+[2025-11-18 16:48:23] [SS] [SS] Request received: raw='STREAM 3.txt friyawww' From: user=- IP=127.0.0.1:57670
+[2025-11-18 16:48:23] [SS] [SS] STREAM start
+[2025-11-18 16:48:29] [SS] [SS] STREAM finished; words_sent=53
+[2025-11-18 16:50:59] [SS] [SS] Request received: raw='LIST friyawww' From: user=- IP=127.0.0.1:49692
+[2025-11-18 16:57:46] [SS] [SS] Request received: raw='LIST friyawww' From: user=- IP=127.0.0.1:35386
+[2025-11-18 17:01:40] [SS] [SS] Request received: raw='LIST nikhil' From: user=- IP=127.0.0.1:52194
+[2025-11-18 17:07:39] [SS] StorageServer started
+[2025-11-18 17:07:39] [SS] Listening on port 9001
+[2025-11-18 17:08:02] [SS] [SS] Request received: raw='LIST friyaww' From: user=- IP=127.0.0.1:36846
+[2025-11-18 17:08:18] [SS] [SS] Request received: raw='LIST nikhil' From: user=- IP=127.0.0.1:34304
+[2025-11-18 17:18:15] [SS] [SS] Request received: raw='WRITE 7.txt 0 friyaww' From: user=friyaww IP=127.0.0.1:60938
+[2025-11-18 17:18:15] [SS] [SS] Sentence 0 locked by user friyaww
+[2025-11-18 17:18:15] [SS] [SS] Appended to UNDO log for file='7.txt'
+[2025-11-18 17:18:27] [SS] [SS] Lock released (ETIRW) for file='7.txt' sentence=0
+[2025-11-18 17:18:27] [SS] [SS] Updated sentence 0; new_word_count=1
+[2025-11-18 17:18:34] [SS] [SS] Request received: raw='READ 7.txt nikhil' From: user=- IP=127.0.0.1:57880
+[2025-11-18 17:18:49] [SS] [SS] Request received: raw='READ 7.txt friyaww' From: user=- IP=127.0.0.1:49898
+[2025-11-18 17:19:01] [SS] [SS] Request received: raw='WRITE 7.txt 0 nikhil' From: user=nikhil IP=127.0.0.1:57968
+[2025-11-18 17:19:01] [SS] [SS] Sentence 0 locked by user nikhil
+[2025-11-18 17:19:01] [SS] [SS] Appended to UNDO log for file='7.txt'
+[2025-11-18 17:19:10] [SS] [SS] Lock released (ETIRW) for file='7.txt' sentence=0
+[2025-11-18 17:19:10] [SS] [SS] Updated sentence 0; new_word_count=1
+[2025-11-18 17:19:18] [SS] [SS] Request received: raw='READ 7.txt nikhil' From: user=- IP=127.0.0.1:39832
+[2025-11-18 17:20:25] [SS] [SS] Request received: raw='READ 8.txt nikhil' From: user=- IP=127.0.0.1:35582
+[2025-11-18 17:22:06] [SS] [SS] Request received: raw='READ 8.txt friyaww' From: user=- IP=127.0.0.1:37414
+[2025-11-18 17:22:51] [SS] [SS] Request received: raw='READ 7.txt friyaww' From: user=- IP=127.0.0.1:34584
+[2025-11-18 21:55:54] [SS] StorageServer started
+[2025-11-18 21:55:54] [SS] Listening on port 9001
+[2025-11-18 21:56:23] [SS] [SS] Request received: raw='READ 1.txt nikhil' From: user=- IP=127.0.0.1:37648
+[2025-11-18 21:57:25] [SS] [SS] Request received: raw='STREAM 1.txt nikhil' From: user=- IP=127.0.0.1:56460
+[2025-11-18 21:57:25] [SS] [SS] STREAM start
+[2025-11-18 21:57:32] [SS] [SS] STREAM finished; words_sent=67
+[2025-11-18 22:00:48] [SS] [SS] Request received: raw='READ 9.txt nikhil' From: user=- IP=127.0.0.1:46596
+[2025-11-18 22:03:23] [SS] StorageServer started
+[2025-11-18 22:03:23] [SS] Listening on port 9001
+[2025-11-18 22:03:36] [SS] [SS] Request received: raw='READ 1.txt nikhil' From: user=nikhil IP=127.0.0.1:56018
+[2025-11-18 22:03:36] [SS] READ file 1.txt by nikhil
+[2025-11-18 22:20:22] [SS] StorageServer started
+[2025-11-18 22:20:22] [SS] Listening on port 9001
+[2025-11-18 22:20:52] [SS] [SS] Request received: raw='WRITE ji.txt 0 nikhil' From: user=nikhil IP=127.0.0.1:56284
+[2025-11-18 22:20:52] [SS] [SS] Sentence 0 locked by user nikhil
+[2025-11-18 22:20:52] [SS] [SS] Appended to UNDO log for file='ji.txt'
+[2025-11-18 22:21:16] [SS] [SS] Lock released (ETIRW) for file='ji.txt' sentence=0
+[2025-11-18 22:21:16] [SS] [SS] Updated sentence 0; new_word_count=1
+[2025-11-18 22:23:37] [SS] StorageServer started
+[2025-11-18 22:23:37] [SS] Listening on port 9001
+[2025-11-18 22:24:17] [SS] [SS] Request received: raw='WRITE li.txt 0 nikhil' From: user=nikhil IP=127.0.0.1:34118
+[2025-11-18 22:24:17] [SS] [SS] Sentence 0 locked by user nikhil
+[2025-11-18 22:24:17] [SS] [SS] In-memory UNDO snapshot taken for file='li.txt'
+[2025-11-18 22:24:24] [SS] [SS] Lock released (ETIRW) for file='li.txt' sentence=0
+[2025-11-18 22:24:24] [SS] [SS] Updated sentence 0; new_word_count=1
+[2025-11-18 22:24:47] [SS] [SS] Request received: raw='UNDO li.txt nikhil' From: user=nikhil IP=127.0.0.1:56164
+[2025-11-18 22:24:47] [SS] [SS] UNDO request for file='li.txt'
+[2025-11-18 22:24:47] [SS] [SS] Reverted last change from memory; file='li.txt'
+[2025-11-18 22:24:55] [SS] [SS] Request received: raw='INFO li.txt nikhil' From: user=nikhil IP=127.0.0.1:34918
+[2025-11-18 22:24:55] [SS] INFO requested for li.txt
+[2025-11-18 22:25:08] [SS] [SS] Request received: raw='READ li.txt nikhil' From: user=nikhil IP=127.0.0.1:38124
+[2025-11-18 22:25:08] [SS] READ file li.txt by nikhil
+[2025-11-18 22:31:20] [SS] StorageServer started
+[2025-11-18 22:31:20] [SS] Listening on port 9001
+[2025-11-18 22:38:11] [SS] StorageServer started
+[2025-11-18 22:38:11] [SS] Listening on port 9001
+[2025-11-18 22:59:14] [SS] StorageServer started
+[2025-11-18 22:59:14] [SS] Listening on port 9001
+[2025-11-18 23:00:00] [SS] [SS] Request received: raw='READ li.txt nikhil' From: user=nikhil IP=127.0.0.1:50822
+[2025-11-18 23:00:00] [SS] READ file li.txt by nikhil
+[2025-11-18 23:01:07] [SS] StorageServer started
+[2025-11-18 23:01:07] [SS] Listening on port 9001
+[2025-11-19 00:30:31] [SS] StorageServer started
+[2025-11-19 00:30:31] [SS] Listening on port 9001
+[2025-11-19 00:31:57] [SS] [SS] Request received: raw='LIST nikhil' From: user=- IP=10.2.141.249:34084
+[2025-11-19 00:32:57] [SS] [SS] Request received: raw='STREAM 1.txt mok' From: user=mok IP=10.2.141.34:43684
+[2025-11-19 00:32:57] [SS] [SS] STREAM start
+[2025-11-19 00:33:04] [SS] [SS] STREAM finished; words_sent=67
+[2025-11-19 00:33:14] [SS] [SS] Request received: raw='INFO 1.txt mok' From: user=mok IP=10.2.141.34:33158
+[2025-11-19 00:33:14] [SS] INFO requested for 1.txt
+[2025-11-19 00:36:07] [SS] [SS] Request received: raw='READ 1.txt mok' From: user=mok IP=10.2.141.34:47682
+[2025-11-19 00:36:07] [SS] READ file 1.txt by mok
+[2025-11-19 00:36:41] [SS] [SS] Request received: raw='READ 2.txt mok' From: user=mok IP=10.2.141.34:43504
+[2025-11-19 00:36:41] [SS] READ file 2.txt by mok
+[2025-11-19 00:36:55] [SS] [SS] Request received: raw='READ 2.txt nikhil' From: user=nikhil IP=10.2.141.249:44780
+[2025-11-19 00:36:55] [SS] READ file 2.txt by nikhil
+[2025-11-19 00:36:57] [SS] [SS] Request received: raw='INFO 2.txt mok' From: user=mok IP=10.2.141.34:38862
+[2025-11-19 00:36:57] [SS] INFO requested for 2.txt
+[2025-11-19 00:37:17] [SS] [SS] Request received: raw='READ 9.txt mok' From: user=mok IP=10.2.141.34:59102
+[2025-11-19 00:37:25] [SS] [SS] Request received: raw='INFO 1.txt mok' From: user=mok IP=10.2.141.34:45098
+[2025-11-19 00:37:25] [SS] INFO requested for 1.txt
+[2025-11-19 00:37:51] [SS] [SS] Request received: raw='READ 9.txt mok' From: user=mok IP=10.2.141.34:45264
+[2025-11-19 00:37:51] [SS] READ file 9.txt by mok
+[2025-11-19 00:38:18] [SS] [SS] Request received: raw='READ ji.txt mok' From: user=mok IP=10.2.141.34:39282
+[2025-11-19 00:38:18] [SS] READ file ji.txt by mok
+[2025-11-19 00:38:39] [SS] [SS] Request received: raw='WRITE 9.txt 0 mok' From: user=mok IP=10.2.141.34:44114
+[2025-11-19 00:38:39] [SS] [SS] Sentence 0 locked by user mok
+[2025-11-19 00:38:39] [SS] [SS] In-memory UNDO snapshot taken for file='9.txt'
+[2025-11-19 00:38:47] [SS] [SS] Lock released (ETIRW) for file='9.txt' sentence=0
+[2025-11-19 00:38:47] [SS] [SS] Updated sentence 0; new_word_count=1
+[2025-11-19 00:38:55] [SS] [SS] Request received: raw='READ 9.txt nikhil' From: user=nikhil IP=10.2.141.249:39472
+[2025-11-19 00:38:55] [SS] READ file 9.txt by nikhil
+[2025-11-19 00:39:12] [SS] [SS] Request received: raw='READ 9.txt mok' From: user=mok IP=10.2.141.34:48274
+[2025-11-19 00:39:38] [SS] [SS] Request received: raw='DELETE 2.txt mok' From: user=mok IP=10.2.141.34:38320
+[2025-11-19 00:39:38] [SS] Deleted file 2.txt
+[2025-11-19 00:39:53] [SS] [SS] Request received: raw='UNDO 2.txt nikhil' From: user=nikhil IP=10.2.141.249:38138
+[2025-11-19 00:39:53] [SS] [SS] UNDO request for file='2.txt'
+[2025-11-19 00:40:17] [SS] [SS] Request received: raw='UNDO 9.txt mok' From: user=mok IP=10.2.141.34:48948
+[2025-11-19 00:40:17] [SS] [SS] UNDO request for file='9.txt'
+[2025-11-19 00:40:17] [SS] [SS] Reverted last change from memory; file='9.txt'
+[2025-11-19 00:40:24] [SS] [SS] Request received: raw='READ 9.txt nikhil' From: user=nikhil IP=10.2.141.249:46910
+[2025-11-19 00:40:24] [SS] READ file 9.txt by nikhil
+[2025-11-19 00:41:27] [SS] [SS] Request received: raw='WRITE lmao.txt 0 nikhil' From: user=nikhil IP=10.2.141.249:50226
+[2025-11-19 00:41:27] [SS] [SS] Sentence 0 locked by user nikhil
+[2025-11-19 00:41:27] [SS] [SS] In-memory UNDO snapshot taken for file='lmao.txt'
+[2025-11-19 00:42:48] [SS] [SS] Lock released (ETIRW) for file='lmao.txt' sentence=0
+[2025-11-19 00:42:48] [SS] [SS] Updated sentence 0; new_word_count=3
+[2025-11-19 00:43:11] [SS] [SS] Request received: raw='UNDO lmao.txt nikhil' From: user=nikhil IP=10.2.141.249:45078
+[2025-11-19 00:43:11] [SS] [SS] UNDO request for file='lmao.txt'
+[2025-11-19 00:43:11] [SS] [SS] Reverted last change from memory; file='lmao.txt'
+[2025-11-19 00:43:19] [SS] [SS] Request received: raw='WRITE lmao.txt 0 nikhil' From: user=nikhil IP=10.2.141.249:60426
+[2025-11-19 00:43:19] [SS] [SS] Sentence 0 locked by user nikhil
+[2025-11-19 00:43:19] [SS] [SS] In-memory UNDO snapshot taken for file='lmao.txt'
+[2025-11-19 00:44:34] [SS] [SS] Lock released (ETIRW) for file='lmao.txt' sentence=0
+[2025-11-19 00:44:34] [SS] [SS] Updated sentence 0; new_word_count=5
+[2025-11-19 00:44:39] [SS] [SS] Request received: raw='READ lmao.txt nikhil' From: user=nikhil IP=10.2.141.249:55586
+[2025-11-19 00:44:39] [SS] READ file lmao.txt by nikhil
+[2025-11-19 00:45:01] [SS] [SS] Request received: raw='UNDO lmao.txt nikhil' From: user=nikhil IP=10.2.141.249:34448
+[2025-11-19 00:45:01] [SS] [SS] UNDO request for file='lmao.txt'
+[2025-11-19 00:45:01] [SS] [SS] Reverted last change from memory; file='lmao.txt'
+[2025-11-19 00:45:11] [SS] [SS] Request received: raw='WRITE lmao.txt 0 nikhil' From: user=nikhil IP=10.2.141.249:39896
+[2025-11-19 00:45:11] [SS] [SS] Sentence 0 locked by user nikhil
+[2025-11-19 00:45:11] [SS] [SS] In-memory UNDO snapshot taken for file='lmao.txt'
+[2025-11-19 00:45:40] [SS] [SS] Lock released (ETIRW) for file='lmao.txt' sentence=0
+[2025-11-19 00:45:40] [SS] [SS] Updated sentence 0; new_word_count=6
+[2025-11-19 00:45:46] [SS] [SS] Request received: raw='READ lmao.txt nikhil' From: user=nikhil IP=10.2.141.249:47272
+[2025-11-19 00:45:46] [SS] READ file lmao.txt by nikhil
+[2025-11-19 00:46:49] [SS] [SS] Request received: raw='UNDO lmao.txt nikhil' From: user=nikhil IP=10.2.141.249:45404
+[2025-11-19 00:46:49] [SS] [SS] UNDO request for file='lmao.txt'
+[2025-11-19 00:46:49] [SS] [SS] Reverted last change from memory; file='lmao.txt'
+[2025-11-19 00:46:53] [SS] [SS] Request received: raw='READ lmao.txt nikhil' From: user=nikhil IP=10.2.141.249:45416
+[2025-11-19 00:46:53] [SS] READ file lmao.txt by nikhil
+[2025-11-19 00:47:02] [SS] [SS] Request received: raw='WRITE lmao.txt 0 nikhil' From: user=nikhil IP=10.2.141.249:54214
+[2025-11-19 00:47:02] [SS] [SS] Sentence 0 locked by user nikhil
+[2025-11-19 00:47:02] [SS] [SS] In-memory UNDO snapshot taken for file='lmao.txt'
+[2025-11-19 00:47:08] [SS] [SS] Lock released (ETIRW) for file='lmao.txt' sentence=0
+[2025-11-19 00:47:08] [SS] [SS] Updated sentence 0; new_word_count=1
+[2025-11-19 01:06:30] [SS] [SS] Request received: raw='STREAM 1.txt nikhil' From: user=nikhil IP=10.2.141.249:40344
+[2025-11-19 01:06:30] [SS] [SS] STREAM start
+[2025-11-19 01:07:00] [SS] StorageServer started
+[2025-11-19 01:07:00] [SS] Listening on port 9001
+[2025-11-19 01:33:42] [SS] StorageServer started
+[2025-11-19 01:33:42] [SS] Listening on port 9001
+[2025-11-19 01:33:42] [SS] Registered with name server successfully
+[2025-11-19 01:34:06] [SS] [SS] Request received: raw='LIST nikhil' From: user=- IP=10.2.141.249:50458
+[2025-11-19 01:34:26] [SS] [SS] Request received: raw='WRITE 9.txt 0 nikhil' From: user=nikhil IP=10.2.141.249:46800
+[2025-11-19 01:34:26] [SS] [SS] Sentence 0 locked by user nikhil
+[2025-11-19 01:34:26] [SS] [SS] In-memory UNDO snapshot taken for file='9.txt'
+[2025-11-19 01:34:45] [SS] [SS] Lock released (ETIRW) for file='9.txt' sentence=0
+[2025-11-19 01:34:45] [SS] [SS] Write complete: file='9.txt' sentence=0 total_sentences=1 total_words=4
+[2025-11-19 01:34:51] [SS] [SS] Request received: raw='UNDO 9.txt nikhil' From: user=nikhil IP=10.2.141.249:45746
+[2025-11-19 01:34:51] [SS] [SS] UNDO request for file='9.txt'
+[2025-11-19 01:34:51] [SS] [SS] Reverted last change from memory; file='9.txt'
+[2025-11-19 01:34:58] [SS] [SS] Request received: raw='WRITE 9.txt 0 nikhil' From: user=nikhil IP=10.2.141.249:45760
+[2025-11-19 01:34:58] [SS] [SS] Sentence 0 locked by user nikhil
+[2025-11-19 01:34:58] [SS] [SS] In-memory UNDO snapshot taken for file='9.txt'
+[2025-11-19 01:35:14] [SS] [SS] Lock released (ETIRW) for file='9.txt' sentence=0
+[2025-11-19 01:35:14] [SS] [SS] Write complete: file='9.txt' sentence=0 total_sentences=1 total_words=4
+[2025-11-19 01:35:22] [SS] [SS] Request received: raw='WRITE 9.txt 1 nikhil' From: user=nikhil IP=10.2.141.249:39284
+[2025-11-19 01:35:22] [SS] [SS] Sentence 1 locked by user nikhil
+[2025-11-19 01:35:22] [SS] [SS] In-memory UNDO snapshot taken for file='9.txt'
+[2025-11-19 01:35:38] [SS] [SS] Lock released (ETIRW) for file='9.txt' sentence=1
+[2025-11-19 01:35:38] [SS] [SS] Write complete: file='9.txt' sentence=1 total_sentences=2 total_words=8
+[2025-11-19 01:35:43] [SS] [SS] Request received: raw='READ 9.txt nikhil' From: user=nikhil IP=10.2.141.249:37884
+[2025-11-19 01:35:43] [SS] READ file 9.txt by nikhil
+[2025-11-19 01:36:19] [SS] [SS] Request received: raw='WRITE 9.txt 2 nikhil' From: user=nikhil IP=10.2.141.249:50430
+[2025-11-19 01:36:19] [SS] [SS] Sentence 2 locked by user nikhil
+[2025-11-19 01:36:19] [SS] [SS] In-memory UNDO snapshot taken for file='9.txt'
+[2025-11-19 01:36:47] [SS] [SS] Lock released (ETIRW) for file='9.txt' sentence=2
+[2025-11-19 01:36:47] [SS] [SS] Write complete: file='9.txt' sentence=2 total_sentences=3 total_words=9
+[2025-11-19 01:36:54] [SS] [SS] Request received: raw='READ 9.txt nikhil' From: user=nikhil IP=10.2.141.249:56646
+[2025-11-19 01:36:54] [SS] READ file 9.txt by nikhil
+[2025-11-19 01:37:03] [SS] [SS] Request received: raw='UNDO 9.txt nikhil' From: user=nikhil IP=10.2.141.249:48436
+[2025-11-19 01:37:03] [SS] [SS] UNDO request for file='9.txt'
+[2025-11-19 01:37:03] [SS] [SS] Reverted last change from memory; file='9.txt'
+[2025-11-19 01:37:08] [SS] [SS] Request received: raw='READ 9.txt nikhil' From: user=nikhil IP=10.2.141.249:48450
+[2025-11-19 01:37:08] [SS] READ file 9.txt by nikhil
+[2025-11-19 01:37:14] [SS] [SS] Request received: raw='WRITE 9.txt 1 nikhil' From: user=nikhil IP=10.2.141.249:45884
+[2025-11-19 01:37:14] [SS] [SS] Sentence 1 locked by user nikhil
+[2025-11-19 01:37:14] [SS] [SS] In-memory UNDO snapshot taken for file='9.txt'
+[2025-11-19 01:37:26] [SS] [SS] Lock released (ETIRW) for file='9.txt' sentence=1
+[2025-11-19 01:37:26] [SS] [SS] Write complete: file='9.txt' sentence=1 total_sentences=2 total_words=10
+[2025-11-19 01:37:30] [SS] [SS] Request received: raw='READ 9.txt nikhil' From: user=nikhil IP=10.2.141.249:39398
+[2025-11-19 01:37:30] [SS] READ file 9.txt by nikhil
+[2025-11-19 01:37:54] [SS] [SS] Request received: raw='WRITE 9.txt 0 nikhil' From: user=nikhil IP=10.2.141.249:60854
+[2025-11-19 01:37:54] [SS] [SS] Sentence 0 locked by user nikhil
+[2025-11-19 01:37:54] [SS] [SS] In-memory UNDO snapshot taken for file='9.txt'
+[2025-11-19 01:38:18] [SS] [SS] Lock released (ETIRW) for file='9.txt' sentence=0
+[2025-11-19 01:38:18] [SS] [SS] Write complete: file='9.txt' sentence=0 total_sentences=2 total_words=12
+[2025-11-19 01:38:22] [SS] [SS] Request received: raw='READ 9.txt nikhil' From: user=nikhil IP=10.2.141.249:60960
+[2025-11-19 01:38:22] [SS] READ file 9.txt by nikhil
+[2025-11-19 01:39:08] [SS] [SS] Request received: raw='WRITE 9.txt 0 nikhil' From: user=nikhil IP=10.2.141.249:54056
+[2025-11-19 01:39:08] [SS] [SS] Sentence 0 locked by user nikhil
+[2025-11-19 01:39:08] [SS] [SS] In-memory UNDO snapshot taken for file='9.txt'
+[2025-11-19 01:39:34] [SS] [SS] Lock released (ETIRW) for file='9.txt' sentence=0
+[2025-11-19 01:39:34] [SS] [SS] Write complete: file='9.txt' sentence=0 total_sentences=2 total_words=16
+[2025-11-19 01:39:51] [SS] [SS] Request received: raw='READ 9.txt nikhil' From: user=nikhil IP=10.2.141.249:40444
+[2025-11-19 01:39:51] [SS] READ file 9.txt by nikhil
+[2025-11-19 01:40:48] [SS] [SS] Request received: raw='WRITE 9.txt 3 nikhil' From: user=nikhil IP=10.2.141.249:34718
+[2025-11-19 01:42:12] [SS] [SS] Request received: raw='READ 9.TXT nikhil' From: user=nikhil IP=10.2.141.249:36926
+[2025-11-19 01:55:33] [SS] StorageServer started
+[2025-11-19 01:55:33] [SS] Listening on port 9001
+[2025-11-19 01:55:33] [SS] Registered with name server successfully
+[2025-11-19 01:55:47] [SS] [SS] Request received: raw='STREAM 1.txt nikhil' From: user=nikhil IP=10.2.141.249:38062
+[2025-11-19 01:55:47] [SS] [SS] STREAM start
+[2025-11-19 01:56:05] [SS] StorageServer started
+[2025-11-19 01:56:05] [SS] Listening on port 9001
+[2025-11-19 01:56:05] [SS] Registered with name server successfully
+[2025-11-19 02:03:13] [SS] StorageServer started
+[2025-11-19 02:03:13] [SS] Listening on port 9001
+[2025-11-19 02:03:13] [SS] Registered with name server successfully
+[2025-11-19 02:03:39] [SS] [SS] Request received: raw='READ 9.txt nikhil' From: user=nikhil IP=10.2.141.249:44826
+[2025-11-19 02:03:39] [SS] READ file 9.txt by nikhil
+[2025-11-19 02:03:47] [SS] [SS] Request received: raw='WRITE 9.txt 3 nikhil' From: user=nikhil IP=10.2.141.249:44842
+[2025-11-19 02:09:09] [SS] StorageServer started
+[2025-11-19 02:09:09] [SS] Listening on port 9001
+[2025-11-19 02:09:09] [SS] Registered with name server successfully
+[2025-11-19 02:09:30] [SS] [SS] Request received: raw='WRITE 9.txt 3 nikhil' From: user=nikhil IP=10.2.141.249:51764
+[2025-11-19 02:13:05] [SS] [SS] Request received: raw='READ nikhil' From: user=- IP=10.2.141.249:48922
+[2025-11-19 02:13:09] [SS] [SS] Request received: raw='READ SDFGHJK nikhil' From: user=nikhil IP=10.2.141.249:49398
+[2025-11-19 02:13:17] [SS] [SS] Request received: raw='READ SDFGHJ.TXT nikhil' From: user=nikhil IP=10.2.141.249:49408
+[2025-11-19 02:16:55] [SS] StorageServer started
+[2025-11-19 02:16:55] [SS] Listening on port 9001
+[2025-11-19 02:16:55] [SS] Registered with name server successfully
+[2025-11-19 02:18:31] [SS] [SS] Request received: raw='READ 1.txt friyaww' From: user=friyaww IP=10.2.141.249:36248
+[2025-11-19 02:18:31] [SS] READ file 1.txt by friyaww
+[2025-11-19 02:19:29] [SS] [SS] Request received: raw='READ 7.txt friyaww' From: user=friyaww IP=10.2.141.249:47586
+[2025-11-19 02:19:29] [SS] READ file 7.txt by friyaww
+[2025-11-19 02:26:27] [SS] StorageServer started
+[2025-11-19 02:26:27] [SS] Listening on port 9001
+[2025-11-19 02:26:27] [SS] Registered with name server successfully
+[2025-11-19 19:46:25] [SS] StorageServer started
+[2025-11-19 19:46:25] [SS] Listening on port 9001
+[2025-11-19 19:46:25] [SS] Registered with name server successfully
+[2025-11-19 20:19:24] [SS] StorageServer started
+[2025-11-19 20:19:24] [SS] Listening on port 9001
+[2025-11-19 20:19:24] [SS] Registered with name server successfully
+[2025-11-19 20:25:14] [SS] [SS] Request received: raw='WRITE 1.txt 0 nikhil' From: user=nikhil IP=10.1.40.13:56158
+[2025-11-19 20:25:14] [SS] [SS] Sentence 0 locked by user nikhil
+[2025-11-19 20:25:14] [SS] [SS] In-memory UNDO snapshot taken for file='1.txt'
+[2025-11-19 20:25:27] [SS] [SS] Sentence auto-split into 2 sentences at index 0
+[2025-11-19 20:25:39] [SS] [SS] Lock released (ETIRW) for file='1.txt' sentence=0
+[2025-11-19 20:25:39] [SS] [SS] Write complete: file='1.txt' sentence=0 total_sentences=2 total_words=70
+[2025-11-19 20:25:53] [SS] [SS] Request received: raw='READ 1.txt nikhil' From: user=nikhil IP=10.1.40.13:55638
+[2025-11-19 20:25:53] [SS] READ file 1.txt by nikhil
+[2025-11-19 20:26:18] [SS] [SS] Request received: raw='STREAM 1.txt nikhil' From: user=nikhil IP=10.1.40.13:50960
+[2025-11-19 20:26:18] [SS] [SS] STREAM start
+[2025-11-19 20:26:40] [SS] StorageServer started
+[2025-11-19 20:26:40] [SS] Listening on port 9001
+[2025-11-19 20:26:40] [SS] Registered with name server successfully
+[2025-11-19 20:28:27] [SS] StorageServer started
+[2025-11-19 20:28:27] [SS] Listening on port 9001
+[2025-11-19 20:28:27] [SS] Registered with name server successfully
+[2025-11-19 20:29:05] [SS] [SS] Request received: raw='WRITE 2.txt 0 vx' From: user=vx IP=10.1.40.13:51030
+[2025-11-19 20:29:38] [SS] [SS] Request received: raw='WRITE 13.txt 0 vx' From: user=vx IP=10.1.40.13:41768
+[2025-11-19 20:29:38] [SS] [SS] Sentence 0 locked by user vx
+[2025-11-19 20:29:38] [SS] [SS] In-memory UNDO snapshot taken for file='13.txt'
+[2025-11-19 20:29:47] [SS] [SS] Sentence auto-split into 2 sentences at index 0
+[2025-11-19 20:30:39] [SS] WRITE aborted: client disconnected
+[2025-11-19 20:33:36] [SS] [SS] Request received: raw='WRITE 14.txt 0 ukgyuj' From: user=ukgyuj IP=10.1.40.13:46914
+[2025-11-19 20:33:36] [SS] [SS] Sentence 0 locked by user ukgyuj
+[2025-11-19 20:33:36] [SS] [SS] In-memory UNDO snapshot taken for file='14.txt'
+[2025-11-19 20:33:56] [SS] [SS] Lock released (ETIRW) for file='14.txt' sentence=0
+[2025-11-19 20:33:56] [SS] [SS] Write complete: file='14.txt' sentence=0 total_sentences=1 total_words=0
+[2025-11-19 20:34:04] [SS] [SS] Request received: raw='WRITE 14.txt 0 ukgyuj' From: user=ukgyuj IP=10.1.40.13:33836
+[2025-11-19 20:34:04] [SS] [SS] Sentence 0 locked by user ukgyuj
+[2025-11-19 20:34:04] [SS] [SS] In-memory UNDO snapshot taken for file='14.txt'
+[2025-11-19 20:34:11] [SS] [SS] Lock released (ETIRW) for file='14.txt' sentence=0
+[2025-11-19 20:34:11] [SS] [SS] Write complete: file='14.txt' sentence=0 total_sentences=1 total_words=1
+[2025-11-19 20:47:59] [SS] StorageServer started
+[2025-11-19 20:47:59] [SS] Listening on port 9001
+[2025-11-19 20:47:59] [SS] Registered with name server successfully
+[2025-11-19 20:51:05] [SS] StorageServer started
+[2025-11-19 20:51:05] [SS] Listening on port 9001
+[2025-11-19 20:51:05] [SS] Registered with name server successfully
+[2025-11-19 21:10:28] [SS] StorageServer started
+[2025-11-19 21:10:28] [SS] Listening on port 9001
+[2025-11-19 21:10:28] [SS] Registered with name server successfully
+[2025-11-19 21:11:15] [SS] [SS] Request received: raw='READ 1.txt nikhil' From: user=nikhil IP=10.2.141.249:36798
+[2025-11-19 21:11:15] [SS] READ file 1.txt by nikhil
+[2025-11-19 21:11:28] [SS] [SS] Request received: raw='STREAM 1.txt nikhil' From: user=nikhil IP=10.2.141.249:45326
+[2025-11-19 21:11:28] [SS] [SS] STREAM start
+[2025-11-19 21:11:35] [SS] [SS] STREAM finished; words_sent=70
+[2025-11-19 21:11:51] [SS] [SS] Request received: raw='WRITE 2.txt 0 nikhil' From: user=nikhil IP=10.2.141.249:47392
+[2025-11-19 21:11:51] [SS] [SS] Sentence 0 locked by user nikhil
+[2025-11-19 21:11:51] [SS] [SS] In-memory UNDO snapshot taken for file='2.txt'
+[2025-11-19 21:12:22] [SS] [SS] Sentence auto-split into 2 sentences at index 0
+[2025-11-19 21:12:38] [SS] WRITE aborted: client disconnected
+[2025-11-19 21:12:52] [SS] [SS] Request received: raw='READ 2.txt nikhil' From: user=nikhil IP=10.2.141.249:40574
+[2025-11-19 21:12:52] [SS] READ file 2.txt by nikhil
+[2025-11-19 21:13:09] [SS] [SS] Request received: raw='WRITE 2.txt 0 nikhil' From: user=nikhil IP=10.2.141.249:35910
+[2025-11-19 21:13:09] [SS] [SS] Sentence 0 locked by user nikhil
+[2025-11-19 21:13:09] [SS] [SS] In-memory UNDO snapshot taken for file='2.txt'
+[2025-11-19 21:13:19] [SS] [SS] Lock released (ETIRW) for file='2.txt' sentence=0
+[2025-11-19 21:13:19] [SS] [SS] Write complete: file='2.txt' sentence=0 total_sentences=1 total_words=1
+[2025-11-19 21:13:31] [SS] [SS] Request received: raw='WRITE 2.txt 0 nikhil' From: user=nikhil IP=10.2.141.249:34492
+[2025-11-19 21:13:31] [SS] [SS] Sentence 0 locked by user nikhil
+[2025-11-19 21:13:31] [SS] [SS] In-memory UNDO snapshot taken for file='2.txt'
+[2025-11-19 21:13:43] [SS] [SS] Lock released (ETIRW) for file='2.txt' sentence=0
+[2025-11-19 21:13:43] [SS] [SS] Write complete: file='2.txt' sentence=0 total_sentences=1 total_words=2
+[2025-11-19 21:13:48] [SS] [SS] Request received: raw='READ 2.txt nikhil' From: user=nikhil IP=10.2.141.249:46494
+[2025-11-19 21:13:48] [SS] READ file 2.txt by nikhil
+[2025-11-19 21:14:07] [SS] [SS] Request received: raw='WRITE 2.txt 0 nikhil' From: user=nikhil IP=10.2.141.249:42778
+[2025-11-19 21:14:07] [SS] [SS] Sentence 0 locked by user nikhil
+[2025-11-19 21:14:07] [SS] [SS] In-memory UNDO snapshot taken for file='2.txt'
+[2025-11-19 21:14:14] [SS] [SS] Sentence auto-split into 2 sentences at index 0
+[2025-11-19 21:14:18] [SS] [SS] Lock released (ETIRW) for file='2.txt' sentence=0
+[2025-11-19 21:14:18] [SS] [SS] Write complete: file='2.txt' sentence=0 total_sentences=2 total_words=3
+[2025-11-19 21:14:31] [SS] [SS] Request received: raw='READ 2.txt nikhil' From: user=nikhil IP=10.2.141.249:42886
+[2025-11-19 21:14:31] [SS] READ file 2.txt by nikhil
+[2025-11-19 21:14:50] [SS] [SS] Request received: raw='WRITE 2.txt 0 nikhil' From: user=nikhil IP=10.2.141.249:36882
+[2025-11-19 21:14:50] [SS] [SS] Sentence 0 locked by user nikhil
+[2025-11-19 21:14:50] [SS] [SS] In-memory UNDO snapshot taken for file='2.txt'
+[2025-11-19 21:24:08] [SS] WRITE aborted: client disconnected
+[2025-11-19 21:27:20] [SS] [SS] Request received: raw='WRITE 2.txt 0 nikhil' From: user=nikhil IP=10.2.141.249:59898
+[2025-11-19 21:27:20] [SS] [SS] Sentence 0 locked by user nikhil
+[2025-11-19 21:27:20] [SS] [SS] In-memory UNDO snapshot taken for file='2.txt'
+[2025-11-19 21:27:34] [SS] [SS] Sentence auto-split into 2 sentences at index 0
+[2025-11-19 21:28:02] [SS] [SS] Sentence auto-split into 2 sentences at index 0
+[2025-11-19 21:28:06] [SS] [SS] Sentence auto-split into 2 sentences at index 0
+[2025-11-19 21:28:29] [SS] [SS] Lock released (ETIRW) for file='2.txt' sentence=0
+[2025-11-19 21:28:29] [SS] [SS] Write complete: file='2.txt' sentence=0 total_sentences=5 total_words=8
+[2025-11-19 21:28:38] [SS] [SS] Request received: raw='READ 2.txt nikhil' From: user=nikhil IP=10.2.141.249:48338
+[2025-11-19 21:28:38] [SS] READ file 2.txt by nikhil
+[2025-11-19 21:29:30] [SS] [SS] Request received: raw='WRITE 123.txt 0 nikhil' From: user=nikhil IP=10.2.141.249:48966
+[2025-11-19 21:29:30] [SS] [SS] Sentence 0 locked by user nikhil
+[2025-11-19 21:29:30] [SS] [SS] In-memory UNDO snapshot taken for file='123.txt'
+[2025-11-19 21:30:17] [SS] [SS] Sentence auto-split into 2 sentences at index 0
+[2025-11-19 21:30:29] [SS] [SS] Sentence auto-split into 2 sentences at index 0
+[2025-11-19 21:30:33] [SS] [SS] Lock released (ETIRW) for file='123.txt' sentence=0
+[2025-11-19 21:30:33] [SS] [SS] Write complete: file='123.txt' sentence=0 total_sentences=3 total_words=5
+[2025-11-19 21:30:40] [SS] [SS] Request received: raw='READ 2.txt nikhil' From: user=nikhil IP=10.2.141.249:38860
+[2025-11-19 21:30:40] [SS] READ file 2.txt by nikhil
+[2025-11-19 21:30:49] [SS] [SS] Request received: raw='READ 123.txt nikhil' From: user=nikhil IP=10.2.141.249:43482
+[2025-11-19 21:30:49] [SS] READ file 123.txt by nikhil
+[2025-11-19 21:31:26] [SS] [SS] Request received: raw='READ lmao.txt nikhil' From: user=nikhil IP=10.2.141.249:51886
+[2025-11-19 21:31:26] [SS] READ file lmao.txt by nikhil
+[2025-11-19 21:31:58] [SS] [SS] Request received: raw='WRITE mlao.txt 0 nikhil' From: user=nikhil IP=10.2.141.249:52422
+[2025-11-19 21:31:58] [SS] [SS] Sentence 0 locked by user nikhil
+[2025-11-19 21:31:58] [SS] [SS] In-memory UNDO snapshot taken for file='mlao.txt'
+[2025-11-19 21:32:36] [SS] [SS] Lock released (ETIRW) for file='mlao.txt' sentence=0
+[2025-11-19 21:32:36] [SS] [SS] Write complete: file='mlao.txt' sentence=0 total_sentences=1 total_words=4
+[2025-11-19 21:32:47] [SS] [SS] Request received: raw='WRITE mlao.txt 1 nikhil' From: user=nikhil IP=10.2.141.249:34252
+[2025-11-19 21:32:47] [SS] [SS] Sentence 1 locked by user nikhil
+[2025-11-19 21:32:47] [SS] [SS] In-memory UNDO snapshot taken for file='mlao.txt'
+[2025-11-19 21:32:55] [SS] [SS] Lock released (ETIRW) for file='mlao.txt' sentence=1
+[2025-11-19 21:32:55] [SS] [SS] Write complete: file='mlao.txt' sentence=1 total_sentences=2 total_words=5
+[2025-11-19 21:33:04] [SS] [SS] Request received: raw='WRITE mlao.txt 2 nikhil' From: user=nikhil IP=10.2.141.249:44338
+[2025-11-19 21:33:37] [SS] [SS] Request received: raw='READ mlao.txt nikhil' From: user=nikhil IP=10.2.141.249:53222
+[2025-11-19 21:33:37] [SS] READ file mlao.txt by nikhil
+[2025-11-19 21:34:51] [SS] [SS] Request received: raw='READ mlao.txt nikhil' From: user=nikhil IP=10.2.141.249:58692
+[2025-11-19 21:34:51] [SS] READ file mlao.txt by nikhil
+[2025-11-19 21:45:25] [SS] [SS] Request received: raw='READ mok.txt nikhil' From: user=nikhil IP=10.2.141.249:39790
+[2025-11-19 21:45:25] [SS] READ file mok.txt by nikhil
+[2025-11-19 23:05:30] [SS] StorageServer started
+[2025-11-19 23:05:30] [SS] Listening on port 9001
+[2025-11-19 23:05:30] [SS] Registered with name server successfully
+[2025-11-19 23:05:53] [SS] [SS] Request received: raw='READ 3.txt mok' From: user=mok IP=10.2.141.34:48548
+[2025-11-19 23:05:53] [SS] [SS] READ denied: file='3.txt' user=mok
+[2025-11-19 23:09:31] [SS] StorageServer started
+[2025-11-19 23:09:31] [SS] Listening on port 9001
+[2025-11-19 23:09:31] [SS] Registered with name server successfully
+[2025-11-19 23:09:44] [SS] [SS] Request received: raw='READ 3.txt mok' From: user=mok IP=10.2.141.34:55986
+[2025-11-19 23:09:44] [SS] [SS] READ denied: file='3.txt' user=mok
+[2025-11-19 23:12:03] [SS] StorageServer started
+[2025-11-19 23:12:03] [SS] Listening on port 9001
+[2025-11-19 23:12:03] [SS] Registered with name server successfully
+[2025-11-19 23:12:16] [SS] [SS] Request received: raw='READ 3.txt mok' From: user=mok IP=10.2.141.34:42418
+[2025-11-19 23:12:16] [SS] [SS] READ denied: file='3.txt' user=mok
+[2025-11-19 23:15:54] [SS] StorageServer started
+[2025-11-19 23:15:54] [SS] Listening on port 9001
+[2025-11-19 23:15:54] [SS] Registered with name server successfully
+[2025-11-19 23:16:04] [SS] [SS] Request received: raw='READ 3.txt mok' From: user=mok IP=10.2.141.34:36916
+[2025-11-19 23:16:04] [SS] [SS] READ denied: file='3.txt' user=mok
+[2025-11-19 23:18:29] [SS] [SS] Request received: raw='WRITE mok.txt 0 mok' From: user=mok IP=10.2.141.34:51338
+[2025-11-19 23:18:29] [SS] [SS] Sentence 0 locked by user mok
+[2025-11-19 23:18:29] [SS] [SS] In-memory UNDO snapshot taken for file='mok.txt'
+[2025-11-19 23:19:19] [SS] [SS] Lock released (ETIRW) for file='mok.txt' sentence=0
+[2025-11-19 23:19:19] [SS] [SS] Write complete: file='mok.txt' sentence=0 total_sentences=1 total_words=0
+[2025-11-19 23:19:26] [SS] [SS] Request received: raw='READ mok.txt mok' From: user=mok IP=10.2.141.34:59648
+[2025-11-19 23:19:26] [SS] READ file mok.txt by mok
+[2025-11-19 23:20:42] [SS] [SS] Request received: raw='STREAM 1.txt mok' From: user=mok IP=10.2.141.34:60812
+[2025-11-19 23:20:42] [SS] [SS] STREAM start
+[2025-11-19 23:20:50] [SS] StorageServer started
+[2025-11-19 23:20:50] [SS] Listening on port 9001
+[2025-11-19 23:20:50] [SS] Registered with name server successfully
+[2025-11-19 23:23:19] [SS] StorageServer started
+[2025-11-19 23:23:19] [SS] Listening on port 9001
+[2025-11-19 23:23:19] [SS] Registered with name server successfully
+[2025-11-19 23:25:58] [SS] [SS] Request received: raw='STREAM 1.txt mok' From: user=mok IP=10.2.141.34:53204
+[2025-11-19 23:25:58] [SS] [SS] STREAM start
+[2025-11-19 23:26:21] [SS] StorageServer started
+[2025-11-19 23:26:21] [SS] Listening on port 9001
+[2025-11-19 23:26:21] [SS] Registered with name server successfully
+[2025-11-19 23:30:52] [SS] StorageServer started
+[2025-11-19 23:30:52] [SS] Listening on port 9001
+[2025-11-19 23:30:52] [SS] Registered with name server successfully
+[2025-11-19 23:31:03] [SS] [SS] Request received: raw='STREAM 1.txt mok' From: user=mok IP=10.2.141.34:35382
+[2025-11-19 23:31:03] [SS] [SS] STREAM start
+[2025-11-19 23:31:10] [SS] StorageServer started
+[2025-11-19 23:31:10] [SS] Listening on port 9001
+[2025-11-19 23:31:10] [SS] Registered with name server successfully
+[2025-11-20 15:22:12] [SS] StorageServer started
+[2025-11-20 15:22:12] [SS] Listening on port 9001
+[2025-11-20 15:22:12] [SS] Registered with name server successfully
+[2025-11-20 15:30:31] [SS] StorageServer started
+[2025-11-20 15:30:31] [SS] [PERSISTENCE] Initializing persistent storage system
+[2025-11-20 15:30:31] [SS] [PERSISTENCE] Loaded existing access.txt with 0 ACL entries
+[2025-11-20 15:30:31] [SS] [PERSISTENCE] Loaded existing metadata.txt with 20 file records
+[2025-11-20 15:30:31] [SS] [PERSISTENCE] All persistent data structures initialized and verified
+[2025-11-20 15:30:31] [SS] Listening on port 9001
+[2025-11-20 15:30:31] [SS] Registered with name server successfully
+[2025-11-20 15:30:57] [SS] [SS] Request received: raw='STREAM 1.txt nikhil' From: user=nikhil IP=10.1.40.13:51454
+[2025-11-20 15:30:57] [SS] [SS] STREAM start
+[2025-11-20 15:31:14] [SS] StorageServer started
+[2025-11-20 15:31:14] [SS] [PERSISTENCE] Initializing persistent storage system
+[2025-11-20 15:31:14] [SS] [PERSISTENCE] Loaded existing access.txt with 0 ACL entries
+[2025-11-20 15:31:14] [SS] [PERSISTENCE] Loaded existing metadata.txt with 20 file records
+[2025-11-20 15:31:14] [SS] [PERSISTENCE] All persistent data structures initialized and verified
+[2025-11-20 15:31:14] [SS] Listening on port 9001
+[2025-11-20 15:31:14] [SS] Registered with name server successfully
+[2025-11-20 15:35:19] [SS] StorageServer started
+[2025-11-20 15:35:19] [SS] [PERSISTENCE] Initializing persistent storage system
+[2025-11-20 15:35:19] [SS] [PERSISTENCE] Loaded existing access.txt with 7 ACL entries
+[2025-11-20 15:35:19] [SS] [PERSISTENCE] Loaded existing metadata.txt with 20 file records
+[2025-11-20 15:35:19] [SS] [PERSISTENCE] All persistent data structures initialized and verified
+[2025-11-20 15:35:19] [SS] Listening on port 9001
+[2025-11-20 15:35:19] [SS] Registered with name server successfully
+[2025-11-20 15:36:45] [SS] StorageServer started
+[2025-11-20 15:36:45] [SS] [PERSISTENCE] Initializing persistent storage system
+[2025-11-20 15:36:45] [SS] [PERSISTENCE] Loaded existing access.txt with 7 ACL entries
+[2025-11-20 15:36:45] [SS] [PERSISTENCE] Loaded existing metadata.txt with 20 file records
+[2025-11-20 15:36:45] [SS] [PERSISTENCE] All persistent data structures initialized and verified
+[2025-11-20 15:36:45] [SS] Listening on port 9001
+[2025-11-20 15:36:45] [SS] Registered with name server successfully
+[2025-11-20 15:37:03] [SS] [SS] Request received: raw='STREAM 1.txt nikhil' From: user=nikhil IP=10.1.40.13:41922
+[2025-11-20 15:37:03] [SS] [SS] STREAM start
+[2025-11-20 15:37:17] [SS] StorageServer started
+[2025-11-20 15:37:17] [SS] [PERSISTENCE] Initializing persistent storage system
+[2025-11-20 15:37:17] [SS] [PERSISTENCE] Loaded existing access.txt with 7 ACL entries
+[2025-11-20 15:37:17] [SS] [PERSISTENCE] Loaded existing metadata.txt with 20 file records
+[2025-11-20 15:37:17] [SS] [PERSISTENCE] All persistent data structures initialized and verified
+[2025-11-20 15:37:17] [SS] Listening on port 9001
+[2025-11-20 15:37:17] [SS] Registered with name server successfully
+[2025-11-20 15:38:18] [SS] StorageServer started
+[2025-11-20 15:38:18] [SS] [PERSISTENCE] Initializing persistent storage system
+[2025-11-20 15:38:18] [SS] [PERSISTENCE] Loaded existing access.txt with 7 ACL entries
+[2025-11-20 15:38:18] [SS] [PERSISTENCE] Loaded existing metadata.txt with 20 file records
+[2025-11-20 15:38:18] [SS] [PERSISTENCE] All persistent data structures initialized and verified
+[2025-11-20 15:38:18] [SS] Listening on port 9001
+[2025-11-20 15:38:18] [SS] Registered with name server successfully
+[2025-11-20 15:38:42] [SS] StorageServer started
+[2025-11-20 15:38:42] [SS] [PERSISTENCE] Initializing persistent storage system
+[2025-11-20 15:38:42] [SS] [PERSISTENCE] Loaded existing access.txt with 7 ACL entries
+[2025-11-20 15:38:42] [SS] [PERSISTENCE] Loaded existing metadata.txt with 20 file records
+[2025-11-20 15:38:42] [SS] [PERSISTENCE] All persistent data structures initialized and verified
+[2025-11-20 15:38:42] [SS] Listening on port 9001
+[2025-11-20 15:38:42] [SS] Registered with name server successfully
+[2025-11-20 15:38:55] [SS] [SS] Request received: raw='READ 1.txt nikhil' From: user=nikhil IP=127.0.0.1:44708
+[2025-11-20 15:38:55] [SS] READ file 1.txt by nikhil
+[2025-11-20 15:39:30] [SS] StorageServer started
+[2025-11-20 15:39:30] [SS] [PERSISTENCE] Initializing persistent storage system
+[2025-11-20 15:39:30] [SS] [PERSISTENCE] Loaded existing access.txt with 7 ACL entries
+[2025-11-20 15:39:30] [SS] [PERSISTENCE] Loaded existing metadata.txt with 20 file records
+[2025-11-20 15:39:30] [SS] [PERSISTENCE] All persistent data structures initialized and verified
+[2025-11-20 15:39:30] [SS] Listening on port 9001
+[2025-11-20 15:39:30] [SS] Registered with name server successfully
+[2025-11-20 15:42:53] [SS] StorageServer started
+[2025-11-20 15:42:53] [SS] [PERSISTENCE] Initializing persistent storage system
+[2025-11-20 15:42:53] [SS] [PERSISTENCE] Loaded existing access.txt with 7 ACL entries
+[2025-11-20 15:42:53] [SS] [PERSISTENCE] Loaded existing metadata.txt with 20 file records
+[2025-11-20 15:42:53] [SS] [PERSISTENCE] All persistent data structures initialized and verified
+[2025-11-20 15:42:53] [SS] Listening on port 9001
+[2025-11-20 15:42:53] [SS] Registered with name server successfully
+[2025-11-20 15:42:53] [SS] [CONCURRENCY] Multi-threaded mode enabled for concurrent client handling
+[2025-11-20 15:43:16] [SS] [SS] Request received: raw='READ 1.txt nikhil' From: user=nikhil IP=127.0.0.1:54306
+[2025-11-20 15:43:16] [SS] READ file 1.txt by nikhil
+[2025-11-20 15:43:16] [SS] [SS] Request received: raw='READ 2.txt nikhil' From: user=nikhil IP=127.0.0.1:54308
+[2025-11-20 15:43:16] [SS] READ file 2.txt by nikhil
+[2025-11-20 15:45:24] [SS] StorageServer started
+[2025-11-20 15:45:24] [SS] [PERSISTENCE] Initializing persistent storage system
+[2025-11-20 15:45:24] [SS] [PERSISTENCE] Loaded existing access.txt with 7 ACL entries
+[2025-11-20 15:45:24] [SS] [PERSISTENCE] Loaded existing metadata.txt with 20 file records
+[2025-11-20 15:45:24] [SS] [PERSISTENCE] All persistent data structures initialized and verified
+[2025-11-20 15:45:24] [SS] Listening on port 9001
+[2025-11-20 15:45:24] [SS] Registered with name server successfully
+[2025-11-20 15:45:24] [SS] [CONCURRENCY] Multi-threaded mode enabled for concurrent client handling
+[2025-11-20 15:46:34] [SS] [SS] Request received: raw='WRITE 1.txt 0 hi' From: user=hi IP=10.1.40.13:38360
+[2025-11-20 15:46:34] [SS] [SS] Sentence 0 locked by user hi
+[2025-11-20 15:46:34] [SS] [SS] PERSISTENT BACKUP: Undo snapshot saved to disk for file='1.txt'
+[2025-11-20 15:46:48] [SS] [SS] Request received: raw='WRITE q.txt 0 nikhil' From: user=nikhil IP=10.1.40.13:40192
+[2025-11-20 15:46:48] [SS] [SS] Sentence 0 locked by user nikhil
+[2025-11-20 15:46:48] [SS] [SS] PERSISTENT BACKUP: Undo snapshot saved to disk for file='q.txt'
+[2025-11-20 15:46:54] [SS] [SS] Lock released (ETIRW) for file='q.txt' sentence=0
+[2025-11-20 15:46:54] [SS] [SS] Write complete: file='q.txt' sentence=0 total_sentences=1 total_words=0
+[2025-11-20 15:47:04] [SS] [SS] Request received: raw='WRITE 1.txt 0 nikhil' From: user=nikhil IP=10.1.40.13:46062
+[2025-11-20 15:47:04] [SS] [SS] WRITE request: file='1.txt' sentence=0 user=nikhil -- lock conflict
+[2025-11-20 15:47:16] [SS] [SS] Lock released (ETIRW) for file='1.txt' sentence=0
+[2025-11-20 15:47:16] [SS] [SS] Write complete: file='1.txt' sentence=0 total_sentences=2 total_words=70
+[2025-11-20 15:47:28] [SS] [SS] Request received: raw='STREAM 1.txt hi' From: user=hi IP=10.1.40.13:37328
+[2025-11-20 15:47:28] [SS] [SS] STREAM start
+[2025-11-20 15:47:43] [SS] StorageServer started
+[2025-11-20 15:47:43] [SS] [PERSISTENCE] Initializing persistent storage system
+[2025-11-20 15:47:43] [SS] [PERSISTENCE] Loaded existing access.txt with 8 ACL entries
+[2025-11-20 15:47:43] [SS] [PERSISTENCE] Loaded existing metadata.txt with 21 file records
+[2025-11-20 15:47:43] [SS] [PERSISTENCE] All persistent data structures initialized and verified
+[2025-11-20 15:47:43] [SS] Listening on port 9001
+[2025-11-20 15:47:43] [SS] Registered with name server successfully
+[2025-11-20 15:47:43] [SS] [CONCURRENCY] Multi-threaded mode enabled for concurrent client handling
+[2025-11-20 15:52:28] [SS] StorageServer started
+[2025-11-20 15:52:28] [SS] Listening on port 9001
+[2025-11-20 15:52:28] [SS] Registered with name server successfully
+[2025-11-20 15:52:28] [SS] [CONCURRENCY] Multi-threaded mode enabled for concurrent client handling
