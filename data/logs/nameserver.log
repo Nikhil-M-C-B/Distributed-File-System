@@ -1,0 +1,397 @@
+[2025-11-18 15:58:14] [NM] NameServer started
+[2025-11-18 15:58:14] [NM] Listening on port 9000
+[2025-11-18 15:58:50] [NM] VIEW nikhil
+[2025-11-18 15:58:50] [NM] VIEW 
+[2025-11-18 15:58:55] [NM] VIEW -a nikhil
+[2025-11-18 15:58:55] [NM] VIEWa nikhil
+[2025-11-18 15:59:00] [NM] VIEW -l nikhil
+[2025-11-18 15:59:00] [NM] VIEW -l nikhil
+[2025-11-18 15:59:04] [NM] VIEW -al nikhil
+[2025-11-18 15:59:04] [NM] VIEW -la nikhil
+[2025-11-18 16:01:01] [NM] CREATE nikhil
+[2025-11-18 16:01:01] [NM] Created file nikhil by nikhil
+[2025-11-18 16:10:47] [NM] NameServer started
+[2025-11-18 16:10:47] [NM] Listening on port 9000
+[2025-11-18 16:11:17] [NM] CREATE nikhil
+[2025-11-18 16:11:17] [NM] File already exists
+[2025-11-18 16:17:50] [NM] NameServer started
+[2025-11-18 16:17:50] [NM] Listening on port 9000
+[2025-11-18 16:18:56] [NM] CREATE nikhil
+[2025-11-18 16:30:20] [NM] NameServer started
+[2025-11-18 16:30:20] [NM] Listening on port 9000
+[2025-11-18 16:30:45] [NS] [NS] Request received: raw='VIEW nikhil' From: user=- IP=127.0.0.1:50956
+[2025-11-18 16:30:45] [NS] [NS] VIEW SUCCESS user= IP=127.0.0.1:50956
+[2025-11-18 16:30:51] [NS] [NS] Request received: raw='CREATE nikhil' From: user=- IP=127.0.0.1:40008
+[2025-11-18 16:32:15] [NS] [NS] Request received: raw='CREATE 1.txt nikhil' From: user=nikhil IP=127.0.0.1:36780
+[2025-11-18 16:32:15] [NM] Created file 1.txt by nikhil
+[2025-11-18 16:32:15] [NS] [NS] CREATE SUCCESS file='1.txt' user=nikhil IP=127.0.0.1:36780
+[2025-11-18 16:41:20] [NM] NameServer started
+[2025-11-18 16:41:20] [NM] Listening on port 9000
+[2025-11-18 16:41:48] [NS] [NS] Request received: raw='VIEW nikhil' From: user=- IP=127.0.0.1:47132
+[2025-11-18 16:41:48] [NS] [NS] VIEW SUCCESS user= IP=127.0.0.1:47132
+[2025-11-18 16:41:52] [NS] [NS] Request received: raw='VIEW -l nikhil' From: user=nikhil IP=127.0.0.1:56860
+[2025-11-18 16:41:52] [NS] [NS] VIEW -l SUCCESS user=nikhil IP=127.0.0.1:56860
+[2025-11-18 16:42:08] [NS] [NS] Request received: raw='CREATE 1.txt nikhil' From: user=nikhil IP=127.0.0.1:59844
+[2025-11-18 16:42:08] [NM] File already exists
+[2025-11-18 16:42:08] [NS] [NS] CREATE FAILED (ERR_FILE_EXISTS) file='1.txt' user=nikhil IP=127.0.0.1:59844
+[2025-11-18 16:42:14] [NS] [NS] Request received: raw='CREATE 2.txt nikhil' From: user=nikhil IP=127.0.0.1:40638
+[2025-11-18 16:42:14] [NM] Created file 2.txt by nikhil
+[2025-11-18 16:42:14] [NS] [NS] CREATE SUCCESS file='2.txt' user=nikhil IP=127.0.0.1:40638
+[2025-11-18 16:45:47] [NM] NameServer started
+[2025-11-18 16:45:47] [NM] Listening on port 9000
+[2025-11-18 16:46:21] [NS] [NS] Request received: raw='VIEW -l friyawww' From: user=friyawww IP=127.0.0.1:37072
+[2025-11-18 16:46:21] [NS] [NS] VIEW -l SUCCESS user=friyawww IP=127.0.0.1:37072
+[2025-11-18 16:46:31] [NS] [NS] Request received: raw='VIEW -a friyawww' From: user=friyawww IP=127.0.0.1:59898
+[2025-11-18 16:46:31] [NS] [NS] VIEWa SUCCESS user=friyawww IP=127.0.0.1:59898
+[2025-11-18 16:46:35] [NS] [NS] Request received: raw='VIEW -al friyawww' From: user=friyawww IP=127.0.0.1:43718
+[2025-11-18 16:46:35] [NS] [NS] VIEW -la SUCCESS user=friyawww IP=127.0.0.1:43718
+[2025-11-18 16:46:47] [NS] [NS] Request received: raw='CREATE 3.txt friyawww' From: user=friyawww IP=127.0.0.1:60794
+[2025-11-18 16:46:47] [NM] Created file 3.txt by friyawww
+[2025-11-18 16:46:47] [NS] [NS] CREATE SUCCESS file='3.txt' user=friyawww IP=127.0.0.1:60794
+[2025-11-18 17:01:35] [NS] [NS] Request received: raw='VIEW nikhil' From: user=- IP=127.0.0.1:57712
+[2025-11-18 17:01:35] [NS] [NS] VIEW SUCCESS user= IP=127.0.0.1:57712
+[2025-11-18 17:04:30] [NS] [NS] Request received: raw='VIEW friyawww' From: user=- IP=127.0.0.1:34786
+[2025-11-18 17:04:30] [NS] [NS] VIEW SUCCESS user= IP=127.0.0.1:34786
+[2025-11-18 17:04:38] [NS] [NS] Request received: raw='VIEW -al friyawww' From: user=friyawww IP=127.0.0.1:51194
+[2025-11-18 17:04:38] [NS] [NS] VIEW -la SUCCESS user=friyawww IP=127.0.0.1:51194
+[2025-11-18 17:07:27] [NM] NameServer started
+[2025-11-18 17:07:27] [NM] Listening on port 9000
+[2025-11-18 17:07:32] [NS] [NS] Request received: raw='VIEW -al friyawww' From: user=friyawww IP=127.0.0.1:54088
+[2025-11-18 17:07:32] [NS] [NS] VIEW -la SUCCESS user=friyawww IP=127.0.0.1:54088
+[2025-11-18 17:07:58] [NS] [NS] Request received: raw='VIEW friyaww' From: user=- IP=127.0.0.1:39728
+[2025-11-18 17:07:58] [NS] [NS] VIEW SUCCESS user= IP=127.0.0.1:39728
+[2025-11-18 17:08:21] [NS] [NS] Request received: raw='VIEW nikhil' From: user=- IP=127.0.0.1:49242
+[2025-11-18 17:08:21] [NS] [NS] VIEW SUCCESS user= IP=127.0.0.1:49242
+[2025-11-18 17:08:38] [NS] [NS] Request received: raw='CREATE 4.txt nikhil' From: user=nikhil IP=127.0.0.1:34076
+[2025-11-18 17:08:38] [NM] Created file 4.txt by nikhil
+[2025-11-18 17:08:38] [NS] [NS] CREATE SUCCESS file='4.txt' user=nikhil IP=127.0.0.1:34076
+[2025-11-18 17:08:47] [NS] [NS] Request received: raw='VIEW nikhil' From: user=- IP=127.0.0.1:46334
+[2025-11-18 17:08:47] [NS] [NS] VIEW SUCCESS user= IP=127.0.0.1:46334
+[2025-11-18 17:10:39] [NS] [NS] Request received: raw='VIEW nikhil nikhil' From: user=nikhil IP=127.0.0.1:48786
+[2025-11-18 17:10:39] [NS] [NS] VIEW SUCCESS user=nikhil IP=127.0.0.1:48786
+[2025-11-18 17:10:52] [NS] [NS] Request received: raw='VIEW friyawww nikhil' From: user=nikhil IP=127.0.0.1:41750
+[2025-11-18 17:10:52] [NS] [NS] VIEW SUCCESS user=nikhil IP=127.0.0.1:41750
+[2025-11-18 17:11:03] [NS] [NS] Request received: raw='VIEW friyaww nikhil' From: user=nikhil IP=127.0.0.1:37888
+[2025-11-18 17:11:03] [NS] [NS] VIEW SUCCESS user=nikhil IP=127.0.0.1:37888
+[2025-11-18 17:16:58] [NS] [NS] Request received: raw='CREATE 7.txt nikhil' From: user=nikhil IP=127.0.0.1:43354
+[2025-11-18 17:16:58] [NM] Created file 7.txt by nikhil
+[2025-11-18 17:16:58] [NS] [NS] CREATE SUCCESS file='7.txt' user=nikhil IP=127.0.0.1:43354
+[2025-11-18 17:17:01] [NS] [NS] Request received: raw='VIEW nikhil' From: user=- IP=127.0.0.1:43362
+[2025-11-18 17:17:01] [NS] [NS] VIEW SUCCESS user= IP=127.0.0.1:43362
+[2025-11-18 17:17:56] [NS] [NS] Request received: raw='ADDACCESS -W 7.txt friyaww nikhil' From: user=7.txt IP=127.0.0.1:34600
+[2025-11-18 17:17:56] [NS] [NS] ADDACCESS SUCCESS perm=RW file='7.txt' target=friyaww by=nikhil IP=127.0.0.1:34600
+[2025-11-18 17:18:43] [NS] [NS] Request received: raw='VIEW friyaww' From: user=- IP=127.0.0.1:50160
+[2025-11-18 17:18:43] [NS] [NS] VIEW SUCCESS user= IP=127.0.0.1:50160
+[2025-11-18 17:20:19] [NS] [NS] Request received: raw='CREATE 8.txt nikhil' From: user=nikhil IP=127.0.0.1:41890
+[2025-11-18 17:20:19] [NM] Created file 8.txt by nikhil
+[2025-11-18 17:20:19] [NS] [NS] CREATE SUCCESS file='8.txt' user=nikhil IP=127.0.0.1:41890
+[2025-11-18 17:21:57] [NS] [NS] Request received: raw='ADDACCESS -R 8.txt friyaww nikhil' From: user=8.txt IP=127.0.0.1:33600
+[2025-11-18 17:21:57] [NS] [NS] ADDACCESS SUCCESS perm=R file='8.txt' target=friyaww by=nikhil IP=127.0.0.1:33600
+[2025-11-18 17:22:43] [NS] [NS] Request received: raw='ADDACCESS -R 7.txt friyaww nikhil' From: user=7.txt IP=127.0.0.1:36464
+[2025-11-18 17:22:43] [NS] [NS] ADDACCESS SUCCESS perm=R file='7.txt' target=friyaww by=nikhil IP=127.0.0.1:36464
+[2025-11-18 17:30:20] [NS] [NS] Request received: raw='CREATE l.py nikhil' From: user=nikhil IP=127.0.0.1:50104
+[2025-11-18 17:30:20] [NM] Created file l.py by nikhil
+[2025-11-18 17:30:20] [NS] [NS] CREATE SUCCESS file='l.py' user=nikhil IP=127.0.0.1:50104
+[2025-11-18 21:55:43] [NM] NameServer started
+[2025-11-18 21:55:43] [NM] Listening on port 9000
+[2025-11-18 21:56:08] [NS] [NS] Request received: raw='VIEW nikhil' From: user=- IP=127.0.0.1:40846
+[2025-11-18 21:56:08] [NS] [NS] VIEW SUCCESS user=nikhil IP=127.0.0.1:40846
+[2025-11-18 21:56:31] [NS] [NS] Request received: raw='VIEW -a nikhil' From: user=nikhil IP=127.0.0.1:54104
+[2025-11-18 21:56:31] [NS] [NS] VIEWa SUCCESS user=nikhil IP=127.0.0.1:54104
+[2025-11-18 21:56:35] [NS] [NS] Request received: raw='VIEW -l nikhil' From: user=nikhil IP=127.0.0.1:54108
+[2025-11-18 21:56:35] [NS] [NS] VIEW -l SUCCESS user=nikhil IP=127.0.0.1:54108
+[2025-11-18 21:56:40] [NS] [NS] Request received: raw='VIEW -al nikhil' From: user=nikhil IP=127.0.0.1:54442
+[2025-11-18 21:56:40] [NS] [NS] VIEW -la SUCCESS user=nikhil IP=127.0.0.1:54442
+[2025-11-18 22:00:43] [NS] [NS] Request received: raw='CREATE 9.txt nikhil' From: user=nikhil IP=127.0.0.1:41490
+[2025-11-18 22:00:43] [NM] Created file 9.txt by nikhil
+[2025-11-18 22:00:43] [NS] [NS] CREATE SUCCESS file='9.txt' user=nikhil IP=127.0.0.1:41490
+[2025-11-18 22:03:12] [NM] NameServer started
+[2025-11-18 22:03:12] [NM] Listening on port 9000
+[2025-11-18 22:03:20] [NM] NameServer started
+[2025-11-18 22:03:20] [NM] Listening on port 9000
+[2025-11-18 22:20:07] [NM] NameServer started
+[2025-11-18 22:20:07] [NM] Listening on port 9000
+[2025-11-18 22:20:42] [NS] [NS] Request received: raw='CREATE ji.txt nikhil' From: user=nikhil IP=127.0.0.1:44522
+[2025-11-18 22:20:42] [NM] Created file ji.txt by nikhil
+[2025-11-18 22:20:42] [NS] [NS] CREATE SUCCESS file='ji.txt' user=nikhil IP=127.0.0.1:44522
+[2025-11-18 22:23:31] [NM] NameServer started
+[2025-11-18 22:23:31] [NM] Listening on port 9000
+[2025-11-18 22:24:11] [NS] [NS] Request received: raw='CREATE li.txt nikhil' From: user=nikhil IP=127.0.0.1:45116
+[2025-11-18 22:24:11] [NM] Created file li.txt by nikhil
+[2025-11-18 22:24:11] [NS] [NS] CREATE SUCCESS file='li.txt' user=nikhil IP=127.0.0.1:45116
+[2025-11-18 22:31:08] [NM] NameServer started
+[2025-11-18 22:31:08] [NM] Listening on port 9000
+[2025-11-18 22:38:04] [NM] NameServer started
+[2025-11-18 22:38:04] [NM] Listening on port 9000
+[2025-11-18 22:59:08] [NM] NameServer started
+[2025-11-18 22:59:08] [NM] Listening on port 9000
+[2025-11-18 23:01:02] [NM] NameServer started
+[2025-11-18 23:01:02] [NM] Listening on port 9000
+[2025-11-19 00:30:25] [NM] NameServer started
+[2025-11-19 00:30:25] [NM] Listening on port 9000
+[2025-11-19 00:30:44] [NS] [NS] Request received: raw='VIEW mok' From: user=- IP=10.2.141.34:53846
+[2025-11-19 00:30:44] [NS] [NS] VIEW SUCCESS user=mok IP=10.2.141.34:53846
+[2025-11-19 00:30:57] [NS] [NS] Request received: raw='CREATE mok.txt mok' From: user=mok IP=10.2.141.34:38494
+[2025-11-19 00:30:57] [NM] Created file mok.txt by mok
+[2025-11-19 00:30:57] [NS] [NS] CREATE SUCCESS file='mok.txt' user=mok IP=10.2.141.34:38494
+[2025-11-19 00:32:03] [NS] [NS] Request received: raw='VIEW mok' From: user=- IP=10.2.141.34:51572
+[2025-11-19 00:32:03] [NS] [NS] VIEW SUCCESS user=mok IP=10.2.141.34:51572
+[2025-11-19 00:32:08] [NS] [NS] Request received: raw='VIEW -a mok' From: user=mok IP=10.2.141.34:40574
+[2025-11-19 00:32:08] [NS] [NS] VIEWa SUCCESS user=mok IP=10.2.141.34:40574
+[2025-11-19 00:32:13] [NS] [NS] Request received: raw='VIEW -al mok' From: user=mok IP=10.2.141.34:40584
+[2025-11-19 00:32:13] [NS] [NS] VIEW -la SUCCESS user=mok IP=10.2.141.34:40584
+[2025-11-19 00:32:24] [NS] [NS] Request received: raw='VIEW -l mok' From: user=mok IP=10.2.141.34:35172
+[2025-11-19 00:32:24] [NS] [NS] VIEW -l SUCCESS user=mok IP=10.2.141.34:35172
+[2025-11-19 00:34:05] [NS] [NS] Request received: raw='ADDACCESS 1.txt mok nikhil' From: user=mok IP=10.2.141.249:52206
+[2025-11-19 00:34:05] [NS] [NS] ADDACCESS DENIED file='mok' target=nikhil by=mok Reason=ERR_NOT_OWNER IP=10.2.141.249:52206
+[2025-11-19 00:34:40] [NS] [NS] Request received: raw='VIEW -l nikhil' From: user=nikhil IP=10.2.141.249:47168
+[2025-11-19 00:34:40] [NS] [NS] VIEW -l SUCCESS user=nikhil IP=10.2.141.249:47168
+[2025-11-19 00:35:23] [NS] [NS] Request received: raw='ADDACCESS -W 2.txt mok nikhil' From: user=2.txt IP=10.2.141.249:55214
+[2025-11-19 00:35:23] [NS] [NS] ADDACCESS SUCCESS perm=RW file='2.txt' target=mok by=nikhil IP=10.2.141.249:55214
+[2025-11-19 00:35:37] [NS] [NS] Request received: raw='ADDACCESS -R 1.txt mok nikhil' From: user=1.txt IP=10.2.141.249:53900
+[2025-11-19 00:35:37] [NS] [NS] ADDACCESS SUCCESS perm=R file='1.txt' target=mok by=nikhil IP=10.2.141.249:53900
+[2025-11-19 00:36:14] [NS] [NS] Request received: raw='VIEW -l mok' From: user=mok IP=10.2.141.34:60692
+[2025-11-19 00:36:14] [NS] [NS] VIEW -l SUCCESS user=mok IP=10.2.141.34:60692
+[2025-11-19 00:36:21] [NS] [NS] Request received: raw='VIEW  mok' From: user=- IP=10.2.141.34:36840
+[2025-11-19 00:36:21] [NS] [NS] VIEW SUCCESS user=mok IP=10.2.141.34:36840
+[2025-11-19 00:37:37] [NS] [NS] Request received: raw='ADDACCESS -W 9.txt mok nikhil' From: user=9.txt IP=10.2.141.249:55616
+[2025-11-19 00:37:37] [NS] [NS] ADDACCESS SUCCESS perm=RW file='9.txt' target=mok by=nikhil IP=10.2.141.249:55616
+[2025-11-19 00:37:44] [NS] [NS] Request received: raw='VIEW mok' From: user=- IP=10.2.141.34:45686
+[2025-11-19 00:37:44] [NS] [NS] VIEW SUCCESS user=mok IP=10.2.141.34:45686
+[2025-11-19 00:38:03] [NS] [NS] Request received: raw='VIEW -l mok' From: user=mok IP=10.2.141.34:51504
+[2025-11-19 00:38:03] [NS] [NS] VIEW -l SUCCESS user=mok IP=10.2.141.34:51504
+[2025-11-19 00:38:08] [NS] [NS] Request received: raw='ADDACCESS -W ji.txt mok nikhil' From: user=ji.txt IP=10.2.141.249:36496
+[2025-11-19 00:38:08] [NS] [NS] ADDACCESS SUCCESS perm=RW file='ji.txt' target=mok by=nikhil IP=10.2.141.249:36496
+[2025-11-19 00:38:12] [NS] [NS] Request received: raw='VIEW mok' From: user=- IP=10.2.141.34:41878
+[2025-11-19 00:38:12] [NS] [NS] VIEW SUCCESS user=mok IP=10.2.141.34:41878
+[2025-11-19 00:39:06] [NS] [NS] Request received: raw='REMACCESS 9.txt mok nikhil' From: user=mok IP=10.2.141.249:35386
+[2025-11-19 00:39:06] [NS] [NS] REMACCESS SUCCESS file='9.txt' target=mok by=nikhil IP=10.2.141.249:35386
+[2025-11-19 00:39:16] [NS] [NS] Request received: raw='VIEW mok' From: user=- IP=10.2.141.34:56042
+[2025-11-19 00:39:16] [NS] [NS] VIEW SUCCESS user=mok IP=10.2.141.34:56042
+[2025-11-19 00:39:43] [NS] [NS] Request received: raw='VIEW nikhil' From: user=- IP=10.2.141.249:54552
+[2025-11-19 00:39:43] [NS] [NS] VIEW SUCCESS user=nikhil IP=10.2.141.249:54552
+[2025-11-19 00:40:57] [NS] [NS] Request received: raw='CREATE lmao.txt nikhil' From: user=nikhil IP=10.2.141.249:57766
+[2025-11-19 00:40:57] [NM] Created file lmao.txt by nikhil
+[2025-11-19 00:40:57] [NS] [NS] CREATE SUCCESS file='lmao.txt' user=nikhil IP=10.2.141.249:57766
+[2025-11-19 00:45:57] [NS] [NS] Request received: raw='EXEC lmao.txt nikhil' From: user=nikhil IP=10.2.141.249:47056
+[2025-11-19 00:45:57] [NS] [NS] EXEC SUCCESS file='lmao.txt' user=nikhil IP=10.2.141.249:47056
+[2025-11-19 00:47:16] [NS] [NS] Request received: raw='EXEC lmao.txt nikhil' From: user=nikhil IP=10.2.141.249:49172
+[2025-11-19 00:47:16] [NS] [NS] EXEC SUCCESS file='lmao.txt' user=nikhil IP=10.2.141.249:49172
+[2025-11-19 01:33:34] [NM] NameServer started
+[2025-11-19 01:33:34] [NM] Listening on port 9000
+[2025-11-19 01:33:34] [NM] Storage server registered successfully
+[2025-11-19 01:34:09] [NS] [NS] Request received: raw='VIEW nikhil' From: user=- IP=10.2.141.249:53594
+[2025-11-19 01:34:09] [NS] [NS] VIEW SUCCESS user=nikhil IP=10.2.141.249:53594
+[2025-11-19 01:34:15] [NS] [NS] Request received: raw='VIEW -al nikhil' From: user=nikhil IP=10.2.141.249:53602
+[2025-11-19 01:34:15] [NS] [NS] VIEW -la SUCCESS user=nikhil IP=10.2.141.249:53602
+[2025-11-19 01:41:55] [NS] [NS] Request received: raw='CREATE 1.txt nikhil' From: user=nikhil IP=10.2.141.249:56238
+[2025-11-19 01:41:55] [NM] File already exists
+[2025-11-19 01:41:55] [NS] [NS] CREATE FAILED (ERR_FILE_EXISTS) file='1.txt' user=nikhil IP=10.2.141.249:56238
+[2025-11-19 01:55:26] [NM] NameServer started
+[2025-11-19 01:55:26] [NM] Listening on port 9000
+[2025-11-19 01:55:26] [NM] Storage server registered successfully
+[2025-11-19 02:03:06] [NM] NameServer started
+[2025-11-19 02:03:06] [NM] Listening on port 9000
+[2025-11-19 02:03:06] [NM] Storage server registered successfully
+[2025-11-19 02:09:01] [NM] NameServer started
+[2025-11-19 02:09:01] [NM] Listening on port 9000
+[2025-11-19 02:09:01] [NM] Storage server registered successfully
+[2025-11-19 02:10:12] [NS] [NS] Request received: raw='VIEW -al nikhil' From: user=nikhil IP=10.2.141.249:55582
+[2025-11-19 02:10:12] [NS] [NS] VIEW -la SUCCESS user=nikhil IP=10.2.141.249:55582
+[2025-11-19 02:13:24] [NS] [NS] Request received: raw='CREATE nikhil' From: user=- IP=10.2.141.249:59140
+[2025-11-19 02:13:29] [NS] [NS] Request received: raw='CREATE ASDFGHJK nikhil' From: user=nikhil IP=10.2.141.249:50488
+[2025-11-19 02:13:29] [NM] Created file ASDFGHJK by nikhil
+[2025-11-19 02:13:29] [NS] [NS] CREATE SUCCESS file='ASDFGHJK' user=nikhil IP=10.2.141.249:50488
+[2025-11-19 02:16:49] [NM] NameServer started
+[2025-11-19 02:16:49] [NM] Listening on port 9000
+[2025-11-19 02:16:49] [NM] Storage server registered successfully
+[2025-11-19 02:17:13] [NS] [NS] Request received: raw='VIEW -l nikhil' From: user=nikhil IP=10.2.141.249:54022
+[2025-11-19 02:17:13] [NS] [NS] VIEW -l SUCCESS user=nikhil IP=10.2.141.249:54022
+[2025-11-19 02:18:03] [NS] [NS] Request received: raw='ADDACCESS -R 1.txt friyaww nikhil' From: user=1.txt IP=10.2.141.249:35010
+[2025-11-19 02:18:03] [NS] [NS] ADDACCESS SUCCESS perm=R file='1.txt' target=friyaww by=nikhil IP=10.2.141.249:35010
+[2025-11-19 02:18:11] [NS] [NS] Request received: raw='VIEW friyaww' From: user=- IP=10.2.141.249:56040
+[2025-11-19 02:18:11] [NS] [NS] VIEW SUCCESS user=friyaww IP=10.2.141.249:56040
+[2025-11-19 02:18:17] [NS] [NS] Request received: raw='VIEW -l friyaww' From: user=friyaww IP=10.2.141.249:56042
+[2025-11-19 02:18:17] [NS] [NS] VIEW -l SUCCESS user=friyaww IP=10.2.141.249:56042
+[2025-11-19 02:18:42] [NS] [NS] Request received: raw='VIEW -l friyaww' From: user=friyaww IP=10.2.141.249:51074
+[2025-11-19 02:18:42] [NS] [NS] VIEW -l SUCCESS user=friyaww IP=10.2.141.249:51074
+[2025-11-19 02:19:00] [NS] [NS] Request received: raw='VIEW -l nikhil' From: user=nikhil IP=10.2.141.249:49030
+[2025-11-19 02:19:00] [NS] [NS] VIEW -l SUCCESS user=nikhil IP=10.2.141.249:49030
+[2025-11-19 02:19:21] [NS] [NS] Request received: raw='VIEW 7.txt friyaww' From: user=friyaww IP=10.2.141.249:35156
+[2025-11-19 02:19:21] [NS] [NS] VIEW SUCCESS user=friyaww IP=10.2.141.249:35156
+[2025-11-19 02:19:35] [NS] [NS] Request received: raw='VIEW -l friyaww' From: user=friyaww IP=10.2.141.249:60958
+[2025-11-19 02:19:35] [NS] [NS] VIEW -l SUCCESS user=friyaww IP=10.2.141.249:60958
+[2025-11-19 02:19:43] [NS] [NS] Request received: raw='VIEW -al friyaww' From: user=friyaww IP=10.2.141.249:47678
+[2025-11-19 02:19:43] [NS] [NS] VIEW -la SUCCESS user=friyaww IP=10.2.141.249:47678
+[2025-11-19 02:19:50] [NS] [NS] Request received: raw='VIEW -a friyaww' From: user=friyaww IP=10.2.141.249:60018
+[2025-11-19 02:19:50] [NS] [NS] VIEWa SUCCESS user=friyaww IP=10.2.141.249:60018
+[2025-11-19 02:26:21] [NM] NameServer started
+[2025-11-19 02:26:21] [NM] Listening on port 9000
+[2025-11-19 02:26:21] [NM] Storage server registered successfully
+[2025-11-19 02:27:08] [NS] [NS] Request received: raw='VIEW friyaww' From: user=- IP=10.2.141.249:35060
+[2025-11-19 02:27:08] [NS] [NS] VIEW SUCCESS user=friyaww IP=10.2.141.249:35060
+[2025-11-19 02:27:15] [NS] [NS] Request received: raw='VIEW -l friyaww' From: user=friyaww IP=10.2.141.249:55092
+[2025-11-19 02:27:15] [NS] [NS] VIEW -l SUCCESS user=friyaww IP=10.2.141.249:55092
+[2025-11-19 02:27:29] [NS] [NS] Request received: raw='VIEW -l nikhil' From: user=nikhil IP=10.2.141.249:34570
+[2025-11-19 02:27:29] [NS] [NS] VIEW -l SUCCESS user=nikhil IP=10.2.141.249:34570
+[2025-11-19 19:46:19] [NM] NameServer started
+[2025-11-19 19:46:19] [NM] Listening on port 9000
+[2025-11-19 19:46:19] [NM] Storage server registered successfully
+[2025-11-19 20:19:18] [NM] NameServer started
+[2025-11-19 20:19:18] [NM] Listening on port 9000
+[2025-11-19 20:19:18] [NM] Storage server registered successfully
+[2025-11-19 20:24:14] [NS] [NS] Request received: raw='VIEW nikhil' From: user=- IP=10.1.40.13:57270
+[2025-11-19 20:24:14] [NS] [NS] VIEW SUCCESS user=nikhil IP=10.1.40.13:57270
+[2025-11-19 20:25:05] [NS] [NS] Request received: raw='CREATE 1.txt nikhil' From: user=nikhil IP=10.1.40.13:36144
+[2025-11-19 20:25:05] [NM] File already exists
+[2025-11-19 20:25:05] [NS] [NS] CREATE FAILED (ERR_FILE_EXISTS) file='1.txt' user=nikhil IP=10.1.40.13:36144
+[2025-11-19 20:27:13] [NS] [NS] Request received: raw='CREATE 12.txt vr' From: user=vr IP=10.1.40.13:57800
+[2025-11-19 20:27:13] [NM] Created file 12.txt by vr
+[2025-11-19 20:27:13] [NS] [NS] CREATE SUCCESS file='12.txt' user=vr IP=10.1.40.13:57800
+[2025-11-19 20:28:50] [NS] [NS] Request received: raw='CREATE 2.txt vx' From: user=vx IP=10.1.40.13:57984
+[2025-11-19 20:28:50] [NM] Created file 2.txt by vx
+[2025-11-19 20:28:50] [NS] [NS] CREATE SUCCESS file='2.txt' user=vx IP=10.1.40.13:57984
+[2025-11-19 20:29:32] [NS] [NS] Request received: raw='CREATE 13.txt vx' From: user=vx IP=10.1.40.13:52818
+[2025-11-19 20:29:32] [NM] Created file 13.txt by vx
+[2025-11-19 20:29:32] [NS] [NS] CREATE SUCCESS file='13.txt' user=vx IP=10.1.40.13:52818
+[2025-11-19 20:33:29] [NS] [NS] Request received: raw='CREATE 14.txt ukgyuj' From: user=ukgyuj IP=10.1.40.13:54856
+[2025-11-19 20:33:29] [NM] Created file 14.txt by ukgyuj
+[2025-11-19 20:33:29] [NS] [NS] CREATE SUCCESS file='14.txt' user=ukgyuj IP=10.1.40.13:54856
+[2025-11-19 20:34:37] [NS] [NS] Request received: raw='VIEW -l ukgyuj' From: user=ukgyuj IP=10.1.40.13:38028
+[2025-11-19 20:34:37] [NS] [NS] VIEW -l SUCCESS user=ukgyuj IP=10.1.40.13:38028
+[2025-11-19 20:47:54] [NM] NameServer started
+[2025-11-19 20:47:54] [NM] Listening on port 9000
+[2025-11-19 20:47:54] [NM] Storage server registered successfully
+[2025-11-19 20:51:00] [NM] NameServer started
+[2025-11-19 20:51:00] [NM] Listening on port 9000
+[2025-11-19 20:51:00] [NM] Storage server registered successfully
+[2025-11-19 21:10:16] [NM] NameServer started
+[2025-11-19 21:10:16] [NM] Listening on port 9000
+[2025-11-19 21:10:16] [NM] Storage server registered successfully
+[2025-11-19 21:10:51] [NS] [NS] Request received: raw='VIEW nikhil' From: user=- IP=10.2.141.249:44180
+[2025-11-19 21:10:51] [NS] [NS] VIEW SUCCESS user=nikhil IP=10.2.141.249:44180
+[2025-11-19 21:10:56] [NS] [NS] Request received: raw='VIEW -l nikhil' From: user=nikhil IP=10.2.141.249:57500
+[2025-11-19 21:10:56] [NS] [NS] VIEW -l SUCCESS user=nikhil IP=10.2.141.249:57500
+[2025-11-19 21:11:02] [NS] [NS] Request received: raw='VIEW -a nikhil' From: user=nikhil IP=10.2.141.249:58744
+[2025-11-19 21:11:02] [NS] [NS] VIEWa SUCCESS user=nikhil IP=10.2.141.249:58744
+[2025-11-19 21:11:06] [NS] [NS] Request received: raw='VIEW -al nikhil' From: user=nikhil IP=10.2.141.249:58760
+[2025-11-19 21:11:06] [NS] [NS] VIEW -la SUCCESS user=nikhil IP=10.2.141.249:58760
+[2025-11-19 21:29:12] [NS] [NS] Request received: raw='CREATE 123.txt nikhil' From: user=nikhil IP=10.2.141.249:47634
+[2025-11-19 21:29:12] [NM] Created file 123.txt by nikhil
+[2025-11-19 21:29:12] [NS] [NS] CREATE SUCCESS file='123.txt' user=nikhil IP=10.2.141.249:47634
+[2025-11-19 21:31:43] [NS] [NS] Request received: raw='CREATE mlao.txt nikhil' From: user=nikhil IP=10.2.141.249:47976
+[2025-11-19 21:31:43] [NM] Created file mlao.txt by nikhil
+[2025-11-19 21:31:43] [NS] [NS] CREATE SUCCESS file='mlao.txt' user=nikhil IP=10.2.141.249:47976
+[2025-11-19 21:33:25] [NS] [NS] Request received: raw='EXEC mlao.txt nikhil' From: user=nikhil IP=10.2.141.249:40974
+[2025-11-19 21:33:25] [NS] [NS] EXEC SUCCESS file='mlao.txt' user=nikhil IP=10.2.141.249:40974
+[2025-11-19 21:35:03] [NS] [NS] Request received: raw='EXEC mlao.txt nikhil' From: user=nikhil IP=10.2.141.249:41666
+[2025-11-19 21:35:04] [NS] [NS] EXEC SUCCESS file='mlao.txt' user=nikhil IP=10.2.141.249:41666
+[2025-11-19 21:45:37] [NS] [NS] Request received: raw='VIEW -l nikhil' From: user=nikhil IP=10.2.141.249:35002
+[2025-11-19 21:45:37] [NS] [NS] VIEW -l SUCCESS user=nikhil IP=10.2.141.249:35002
+[2025-11-19 21:45:50] [NS] [NS] Request received: raw='VIEW nikhil' From: user=- IP=10.2.141.249:56338
+[2025-11-19 21:45:50] [NS] [NS] VIEW SUCCESS user=nikhil IP=10.2.141.249:56338
+[2025-11-19 23:05:24] [NM] NameServer started
+[2025-11-19 23:05:24] [NM] Listening on port 9000
+[2025-11-19 23:05:24] [NM] Storage server registered successfully
+[2025-11-19 23:05:46] [NS] [NS] Request received: raw='VIEW  mok' From: user=- IP=10.2.141.34:40382
+[2025-11-19 23:05:46] [NS] [NS] VIEW SUCCESS user=mok IP=10.2.141.34:40382
+[2025-11-19 23:09:28] [NM] NameServer started
+[2025-11-19 23:09:28] [NM] Listening on port 9000
+[2025-11-19 23:09:28] [NM] Storage server registered successfully
+[2025-11-19 23:09:39] [NS] [NS] Request received: raw='VIEW mok' From: user=- IP=10.2.141.34:47124
+[2025-11-19 23:09:39] [NS] [NS] VIEW SUCCESS user=mok IP=10.2.141.34:47124
+[2025-11-19 23:12:01] [NM] NameServer started
+[2025-11-19 23:12:01] [NM] Listening on port 9000
+[2025-11-19 23:12:01] [NM] Storage server registered successfully
+[2025-11-19 23:12:12] [NS] [NS] Request received: raw='VIEW mok' From: user=- IP=10.2.141.34:46616
+[2025-11-19 23:12:12] [NS] [NS] VIEW SUCCESS user=mok IP=10.2.141.34:46616
+[2025-11-19 23:12:37] [NS] [NS] Request received: raw='ADDACCESS mok.txt wb mok' From: user=wb IP=10.2.141.34:57668
+[2025-11-19 23:12:37] [NS] [NS] ADDACCESS DENIED Reason=ERR_INVALID_FORMAT IP=10.2.141.34:57668
+[2025-11-19 23:15:50] [NM] NameServer started
+[2025-11-19 23:15:50] [NM] Listening on port 9000
+[2025-11-19 23:15:50] [NM] Storage server registered successfully
+[2025-11-19 23:16:00] [NS] [NS] Request received: raw='VIEW mok' From: user=- IP=10.2.141.34:41854
+[2025-11-19 23:16:00] [NS] [NS] VIEW SUCCESS user=mok IP=10.2.141.34:41854
+[2025-11-19 23:16:41] [NS] [NS] Request received: raw='ADDACCESS -R 3.txt wr mok' From: user=3.txt IP=10.2.141.34:40180
+[2025-11-19 23:16:41] [NS] [NS] ADDACCESS DENIED file='3.txt' target=wr by=mok Reason=ERR_NOT_OWNER IP=10.2.141.34:40180
+[2025-11-19 23:16:56] [NS] [NS] Request received: raw='ADDACCESS -R 2.txt wr mok' From: user=2.txt IP=10.2.141.34:42826
+[2025-11-19 23:16:56] [NS] [NS] ADDACCESS DENIED file='2.txt' target=wr by=mok Reason=ERR_NOT_OWNER IP=10.2.141.34:42826
+[2025-11-19 23:17:05] [NS] [NS] Request received: raw='VIEW -l mok' From: user=mok IP=10.2.141.34:53242
+[2025-11-19 23:17:05] [NS] [NS] VIEW -l SUCCESS user=mok IP=10.2.141.34:53242
+[2025-11-19 23:17:33] [NS] [NS] Request received: raw='ADDACCESS -R mok.txt wd mok' From: user=mok.txt IP=10.2.141.34:35640
+[2025-11-19 23:17:33] [NS] [NS] ADDACCESS SUCCESS perm=R file='mok.txt' target=wd by=mok IP=10.2.141.34:35640
+[2025-11-19 23:17:46] [NS] [NS] Request received: raw='ADDACCESS -R MOK.TXT wd mok' From: user=MOK.TXT IP=10.2.141.34:56954
+[2025-11-19 23:17:46] [NS] [NS] ADDACCESS DENIED file='MOK.TXT' Reason=ERR_FILE_NOT_FOUND IP=10.2.141.34:56954
+[2025-11-19 23:20:15] [NM] NameServer started
+[2025-11-19 23:20:15] [NM] Listening on port 9000
+[2025-11-19 23:20:15] [NM] Storage server registered successfully
+[2025-11-19 23:20:20] [NS] [NS] Request received: raw='VIEW -al mok' From: user=mok IP=10.2.141.34:52534
+[2025-11-19 23:20:20] [NS] [NS] VIEW -la SUCCESS user=mok IP=10.2.141.34:52534
+[2025-11-19 23:23:15] [NM] NameServer started
+[2025-11-19 23:23:15] [NM] Listening on port 9000
+[2025-11-19 23:23:15] [NM] Storage server registered successfully
+[2025-11-19 23:23:26] [NS] [NS] Request received: raw='VIEW  mok' From: user=- IP=10.2.141.34:49796
+[2025-11-19 23:23:26] [NS] [NS] VIEW SUCCESS user=mok IP=10.2.141.34:49796
+[2025-11-19 23:23:31] [NS] [NS] Request received: raw='VIEW -l mok' From: user=mok IP=10.2.141.34:45024
+[2025-11-19 23:23:31] [NS] [NS] VIEW -l SUCCESS user=mok IP=10.2.141.34:45024
+[2025-11-19 23:23:44] [NS] [NS] Request received: raw='VIEW -al mok' From: user=mok IP=10.2.141.34:53662
+[2025-11-19 23:23:44] [NS] [NS] VIEW -la SUCCESS user=mok IP=10.2.141.34:53662
+[2025-11-19 23:26:09] [NS] [NS] Request received: raw='VIEW -l mok' From: user=mok IP=10.2.141.34:35242
+[2025-11-19 23:26:09] [NS] [NS] VIEW -l SUCCESS user=mok IP=10.2.141.34:35242
+[2025-11-19 23:30:49] [NM] NameServer started
+[2025-11-19 23:30:49] [NM] Listening on port 9000
+[2025-11-19 23:30:49] [NM] Storage server registered successfully
+[2025-11-19 23:30:57] [NS] [NS] Request received: raw='VIEW mok' From: user=- IP=10.2.141.34:57832
+[2025-11-19 23:30:57] [NS] [NS] VIEW SUCCESS user=mok IP=10.2.141.34:57832
+[2025-11-19 23:31:40] [NM] NameServer started
+[2025-11-19 23:31:40] [NM] Listening on port 9000
+[2025-11-19 23:31:40] [NM] Storage server registered successfully
+[2025-11-20 15:21:38] [NM] NameServer started
+[2025-11-20 15:21:38] [NM] Listening on port 9000
+[2025-11-20 15:21:38] [NM] Storage server registered successfully
+[2025-11-20 15:23:05] [NS] [NS] Request received: raw='VIEW nikhil' From: user=- IP=10.1.40.13:41274
+[2025-11-20 15:23:05] [NS] [NS] VIEW SUCCESS user=nikhil IP=10.1.40.13:41274
+[2025-11-20 15:30:23] [NM] NameServer started
+[2025-11-20 15:30:23] [NM] [PERSISTENCE] Initializing persistent storage system
+[2025-11-20 15:30:23] [NM] [PERSISTENCE] Loaded metadata.txt with 20 file records
+[2025-11-20 15:30:23] [NM] [PERSISTENCE] Loaded access.txt with 7 ACL entries
+[2025-11-20 15:30:23] [NM] [PERSISTENCE] Found 23 existing files in data/files/
+[2025-11-20 15:30:23] [NM] [PERSISTENCE] Data recovery complete - all persistent data verified
+[2025-11-20 15:30:23] [NM] Listening on port 9000
+[2025-11-20 15:30:23] [NM] Storage server registered successfully
+[2025-11-20 15:31:30] [NS] [NS] Request received: raw='VIEW nikhil' From: user=- IP=10.1.40.13:42390
+[2025-11-20 15:31:30] [NS] [NS] VIEW SUCCESS user=nikhil IP=10.1.40.13:42390
+[2025-11-20 15:36:40] [NM] NameServer started
+[2025-11-20 15:36:40] [NM] [PERSISTENCE] Initializing persistent storage system
+[2025-11-20 15:36:40] [NM] [PERSISTENCE] Loaded metadata.txt with 20 file records
+[2025-11-20 15:36:40] [NM] [PERSISTENCE] Loaded access.txt with 7 ACL entries
+[2025-11-20 15:36:40] [NM] [PERSISTENCE] Found 23 existing files in data/files/
+[2025-11-20 15:36:40] [NM] [PERSISTENCE] Data recovery complete - all persistent data verified
+[2025-11-20 15:36:40] [NM] Listening on port 9000
+[2025-11-20 15:36:40] [NM] Storage server registered successfully
+[2025-11-20 15:36:57] [NS] [NS] Request received: raw='VIEW nikhil' From: user=- IP=10.1.40.13:47764
+[2025-11-20 15:36:57] [NS] [NS] VIEW SUCCESS user=nikhil IP=10.1.40.13:47764
+[2025-11-20 15:45:18] [NM] NameServer started
+[2025-11-20 15:45:18] [NM] [PERSISTENCE] Initializing persistent storage system
+[2025-11-20 15:45:18] [NM] [PERSISTENCE] Loaded metadata.txt with 20 file records
+[2025-11-20 15:45:18] [NM] [PERSISTENCE] Loaded access.txt with 7 ACL entries
+[2025-11-20 15:45:18] [NM] [PERSISTENCE] Found 23 existing files in data/files/
+[2025-11-20 15:45:18] [NM] [PERSISTENCE] Data recovery complete - all persistent data verified
+[2025-11-20 15:45:18] [NM] Listening on port 9000
+[2025-11-20 15:45:18] [NM] Storage server registered successfully
+[2025-11-20 15:46:01] [NS] [NS] Request received: raw='VIEW hi' From: user=- IP=10.1.40.13:52604
+[2025-11-20 15:46:01] [NS] [NS] VIEW SUCCESS user=hi IP=10.1.40.13:52604
+[2025-11-20 15:46:21] [NS] [NS] Request received: raw='ADDACCESS -W 1.txt hi nikhil' From: user=1.txt IP=10.1.40.13:60766
+[2025-11-20 15:46:21] [NS] [NS] PERSISTENCE: ADDACCESS perm=RW file='1.txt' target=hi by=nikhil IP=10.1.40.13:60766
+[2025-11-20 15:46:42] [NS] [NS] Request received: raw='CREATE q.txt nikhil' From: user=nikhil IP=10.1.40.13:53392
+[2025-11-20 15:46:42] [NM] [PERSISTENCE] Metadata saved - file='q.txt' owner='nikhil'
+[2025-11-20 15:46:42] [NM] [PERSISTENCE] Created file 'q.txt' by user 'nikhil'
+[2025-11-20 15:46:42] [NS] [NS] CREATE SUCCESS file='q.txt' user=nikhil IP=10.1.40.13:53392
+[2025-11-20 15:52:23] [NM] NameServer started
+[2025-11-20 15:52:23] [NM] Listening on port 9000
+[2025-11-20 15:52:23] [NM] Storage server registered successfully
+[2025-11-20 23:19:12] [NM] NameServer started
+[2025-11-20 23:19:12] [NM] Listening on port 9000
+[2025-11-20 23:19:12] [NM] Storage server registered successfully
+[2025-11-20 23:19:42] [NS] [NS] Request received: raw='VIEW nikhil' From: user=- IP=10.2.141.249:49860
+[2025-11-20 23:19:42] [NS] [NS] VIEW SUCCESS user=nikhil IP=10.2.141.249:49860
